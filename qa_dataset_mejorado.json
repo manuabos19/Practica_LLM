@@ -1,0 +1,2226 @@
+[
+    {
+        "pregunta": "¿Cuál es la ubicación del servidor de ingeniería?",
+        "respuesta": "El servidor de ingeniería se encuentra en la ruta \\SERVIDOR iNGENIERIA\\ETS\\ETFU\\EtFu."
+    },
+    {
+        "pregunta": "¿Qué edición es la que se encuentra en el servidor de ingeniería?",
+        "respuesta": "La edición que se encuentra en el servidor es la 5."
+    },
+    {
+        "pregunta": "¿Qué tipo de archivos se pueden encontrar en el servidor de ingeniería?",
+        "respuesta": "En el servidor de ingeniería se pueden encontrar archivos relacionados con ingeniería, específicamente en las carpetas ETS, ETFU y EtFu."
+    },
+    {
+        "pregunta": "¿Cómo se basa el sistema de Guiado de Equinsa Parking en la detección de vehículos?",
+        "respuesta": "El sistema se basa en la detección de vehículos por medio de sondas de ultrasonidos que emiten y reciben en una frecuencia de 40KHz."
+    },
+    {
+        "pregunta": "¿Qué colores indican la ocupación de una plaza en el sistema de Guiado de Equinsa Parking?",
+        "respuesta": "El color verde indica plaza vacía, el color rojo indica plaza ocupada y el color azul indica plaza vacía para minusválidos."
+    },
+    {
+        "pregunta": "¿Qué función cumplen los carteles luminosos colocados en las intersecciones de los viales en el sistema de Guiado de Equinsa Parking?",
+        "respuesta": "Estos carteles indicadores informan al usuario de la disponibilidad de plazas libres y les guían hasta ellas, indicando el número de plazas disponibles en cada zona así como su ubicación dentro del aparcamiento mediante un completo sistema de flechas y aspas."
+    },
+    {
+        "pregunta": "¿Qué prestaciones permite obtener el sistema GUIA de Equinsa Parking al operador?",
+        "respuesta": "El sistema GUIA permite al operador detectar la ocupación de las plazas, señalizar el estado de cada plaza, guiar a los vehículos en el interior del aparcamiento y registrar informáticamente el estado de ocupación de todas las plazas."
+    },
+    {
+        "pregunta": "¿Cómo puede el operador del sistema de Guiado de Equinsa Parking bloquear las plazas a ocupado o libre desde el PC?",
+        "respuesta": "El operador puede bloquear desde el PC las plazas a ocupado o libre, permitiendo aparcar los vehículos por zonas con el consiguiente ahorro energético de las zonas no ocupadas cuando la demanda de plazas así lo aconseje."
+    },
+    {
+        "pregunta": "¿Cuál es la función de la sonda de detección en el sistema?",
+        "respuesta": "La función de la sonda de detección es detectar el estado de ocupación de cada plaza de aparcamiento y transmitirlo para su gestión posterior."
+    },
+    {
+        "pregunta": "¿Qué colores muestra la sonda de detección para indicar si una plaza de aparcamiento está libre u ocupada?",
+        "respuesta": "Si la plaza está libre, la sonda de detección muestra color verde, y si está ocupada, pasa a mostrar color rojo a los pocos segundos."
+    },
+    {
+        "pregunta": "¿Dónde se sitúa la sonda de detección en el sistema?",
+        "respuesta": "La sonda de detección se sitúa en la cabecera de cada plaza de aparcamiento."
+    },
+    {
+        "pregunta": "¿Qué edición es la que se encuentra en el servidor de Ingeniería en la carpeta ETS/ETFU/EtFu?",
+        "respuesta": "La quinta edición."
+    },
+    {
+        "pregunta": "¿Dónde se encuentra ubicado el servidor de Ingeniería?",
+        "respuesta": "En la carpeta ETS/ETFU/EtFu."
+    },
+    {
+        "pregunta": "¿Qué tipo de contenido se encuentra en la carpeta EtFu del servidor de Ingeniería?",
+        "respuesta": "La quinta edición."
+    },
+    {
+        "pregunta": "¿Cuál es la ruta completa del servidor de Ingeniería hasta llegar a la quinta edición?",
+        "respuesta": "\\SERVIDOR iNGENIERIA\\ETS\\ETFU\\EtFu."
+    },
+    {
+        "pregunta": "¿Cuál es la tensión de alimentación nominal de la sonda?",
+        "respuesta": "La tensión de alimentación nominal de la sonda es de 72Vdc."
+    },
+    {
+        "pregunta": "¿Qué tipo de sistema de detección utiliza la sonda?",
+        "respuesta": "La sonda utiliza un sistema de detección por ultrasonidos."
+    },
+    {
+        "pregunta": "¿Cuál es la banda de ultrasonidos que utiliza la sonda?",
+        "respuesta": "La sonda utiliza una banda de ultrasonidos de 40KHz."
+    },
+    {
+        "pregunta": "¿Cómo se indican los estados de la sonda?",
+        "respuesta": "Los estados de la sonda se indican por diodo LED, pudiendo ser rojo/verde, rojo/azul o rojo/ámbar según el modelo."
+    },
+    {
+        "pregunta": "¿Cómo se realiza la programación de los parámetros de la sonda?",
+        "respuesta": "La programación de los parámetros de la sonda se puede realizar por RS485 o por mando a distancia por infrarrojo."
+    },
+    {
+        "pregunta": "¿Cuál es el máximo número de elementos que se pueden conectar en un mismo bus de sondas/carteles?",
+        "respuesta": "El máximo número de elementos conectados en el mismo bus es de 127."
+    },
+    {
+        "pregunta": "¿Cómo van conectadas las sondas y los carteles en un bus de sondas/carteles?",
+        "respuesta": "Las sondas y los carteles van conectados unos a otros en cascada con cables tipo red Ethernet estándar (Recto)."
+    },
+    {
+        "pregunta": "¿Cómo se conecta la primera sonda del bus a la placa de comunicaciones del bus?",
+        "respuesta": "La primera sonda del bus va conectada a la placa de comunicaciones del bus también con un cable tipo red Ethernet estándar."
+    },
+    {
+        "pregunta": "¿Qué tipo de carteles indicadores se pueden utilizar para mostrar el número de plazas libres en un aparcamiento?",
+        "respuesta": "Se pueden utilizar carteles de leds o monitores TFT."
+    },
+    {
+        "pregunta": "¿Qué información pueden mostrar los carteles indicadores de plazas libres en un aparcamiento?",
+        "respuesta": "Pueden mostrar el número de plazas libres en la zona indicada o el total de plazas de la planta."
+    },
+    {
+        "pregunta": "¿Por qué es útil tener carteles indicadores de plazas libres en un aparcamiento?",
+        "respuesta": "Es útil para que los conductores puedan encontrar rápidamente una plaza libre sin tener que dar vueltas innecesarias."
+    },
+    {
+        "pregunta": "¿Para qué sirven los carteles de diodos LED?",
+        "respuesta": "Los carteles de diodos LED sirven para indicar si hay plazas libres en una zona y también pueden mostrar una flecha indicadora de la situación de la zona."
+    },
+    {
+        "pregunta": "¿Cómo se alimentan los carteles de diodos LED?",
+        "respuesta": "Los carteles de diodos LED se alimentan con energía eléctrica."
+    },
+    {
+        "pregunta": "¿Cuál es la tensión de corriente continua (Vdc) de los modelos mencionados?",
+        "respuesta": "La tensión de corriente continua de los modelos mencionados es de 2 Vdc."
+    },
+    {
+        "pregunta": "¿Cuál es el consumo máximo de corriente de los modelos mencionados?",
+        "respuesta": "El consumo máximo de corriente de los modelos mencionados varía entre 41 y 125 mA, dependiendo del modelo."
+    },
+    {
+        "pregunta": "¿Qué significa la sigla ETFU?",
+        "respuesta": "La sigla ETFU corresponde a Especificaciones Técnicas del Sistema Sonar Número."
+    },
+    {
+        "pregunta": "¿Qué función cumple el sistema sonar en la marina?",
+        "respuesta": "El sistema sonar en la marina se utiliza para detectar y localizar objetos bajo el agua mediante ondas sonoras."
+    },
+    {
+        "pregunta": "¿Qué tipo de información proporciona el sistema sonar?",
+        "respuesta": "El sistema sonar proporciona información sobre la profundidad del agua, la presencia de bancos de peces, la ubicación de embarcaciones y posibles amenazas submarinas."
+    },
+    {
+        "pregunta": "¿Por qué es importante contar con especificaciones técnicas detalladas para un sistema sonar?",
+        "respuesta": "Contar con especificaciones técnicas detalladas para un sistema sonar es importante para garantizar su correcto funcionamiento, así como para facilitar su mantenimiento y actualizaciones."
+    },
+    {
+        "pregunta": "¿Qué edición es la que se encuentra en el servidor INGENIERIA en la carpeta ETFU?",
+        "respuesta": "La quinta edición."
+    },
+    {
+        "pregunta": "¿Cuál es la ruta completa del servidor donde se encuentra la carpeta ETFU?",
+        "respuesta": "SERVIDOR iNGENIERIA\\ETS\\ETFU\\EtFu."
+    },
+    {
+        "pregunta": "¿Qué contenido se encuentra en la carpeta EtFu?",
+        "respuesta": "La quinta edición."
+    },
+    {
+        "pregunta": "¿Qué características tiene el totalizador de planta personalizado?",
+        "respuesta": "Este totalizador de planta personalizado contiene una zona serigrafiable que se puede personalizar para el cliente."
+    },
+    {
+        "pregunta": "¿Qué ventajas tiene la personalización de la zona serigrafiable en el totalizador de planta?",
+        "respuesta": "La personalización permite al cliente agregar su propio logo, diseño o información relevante a la zona serigrafiable del totalizador de planta."
+    },
+    {
+        "pregunta": "¿Cómo se puede personalizar el totalizador de planta?",
+        "respuesta": "La personalización se realiza a través de serigrafía, lo que permite imprimir el diseño deseado en la zona designada del totalizador de planta."
+    },
+    {
+        "pregunta": "¿Qué tipo de información se puede incluir en la zona serigrafiable del totalizador de planta?",
+        "respuesta": "En la zona serigrafiable se puede incluir el logo de la empresa, información de contacto, mensajes promocionales o cualquier diseño que el cliente desee."
+    },
+    {
+        "pregunta": "¿Para qué se puede utilizar un monitor TFT en un aparcamiento?",
+        "respuesta": "Se puede utilizar para representar las plazas libres de una zona del aparcamiento."
+    },
+    {
+        "pregunta": "¿Qué se puede alternar o sustituir en el monitor TFT?",
+        "respuesta": "Se puede alternar o sustituir la indicación de plazas libres con la reproducción de textos preconfigurados seleccionables y/o con imágenes fijas o videos en modo carrusel."
+    },
+    {
+        "pregunta": "¿Qué tipo de contenido se puede reproducir en el monitor TFT?",
+        "respuesta": "Se pueden reproducir textos preconfigurados seleccionables, imágenes fijas o videos en modo carrusel."
+    },
+    {
+        "pregunta": "¿Cuáles son las especificaciones técnicas del sistema sonar número ETFU?",
+        "respuesta": "Las especificaciones técnicas del sistema sonar número ETFU no se mencionan en el contenido proporcionado."
+    },
+    {
+        "pregunta": "¿Qué número de edición es la que se está utilizando?",
+        "respuesta": "La edición que se está utilizando es la 5.\nPregunta: ¿Cuál es el nombre del servidor donde se encuentra la información?\nRespuesta: El nombre del servidor es \"SERVIDOR iNGENIERIA\".\nPregunta: ¿Cuál es la ruta completa donde se encuentra el archivo?\nRespuesta: La ruta completa es \\ETS\\ETFU\\EtFu.\nPregunta: ¿Qué tipo de archivo o información se está accediendo?\nRespuesta: No se especifica en el contenido proporcionado.\nPregunta: ¿Qué significado tiene la abreviatura \"ETFU\" en la ruta?\nRespuesta: No se especifica en el contenido proporcionado."
+    },
+    {
+        "pregunta": "¿Qué información se muestra en la indicación de plazas libres?",
+        "respuesta": "En la indicación de plazas libres se muestra el número de plazas disponibles en un determinado lugar."
+    },
+    {
+        "pregunta": "¿Qué tipo de contenido se encuentra en el sistema sonar ETFU?",
+        "respuesta": "En el sistema sonar ETFU se encuentran textos fijos, imágenes fijas y videos relacionados con las especificaciones técnicas."
+    },
+    {
+        "pregunta": "¿Qué significa ETFU en relación al sistema sonar?",
+        "respuesta": "ETFU es el número de identificación del sistema sonar en cuestión, que en este caso corresponde a las especificaciones técnicas."
+    },
+    {
+        "pregunta": "¿Cuál es la ubicación del servidor de ingeniería?",
+        "respuesta": "El servidor de ingeniería se encuentra en la carpeta \\SERVIDOR iNGENIERIA\\ETS\\ETFU\\EtFu."
+    },
+    {
+        "pregunta": "¿Qué edición es la que se está utilizando?",
+        "respuesta": "Se está utilizando la 5ª edición."
+    },
+    {
+        "pregunta": "¿Qué tipo de información se encuentra en el servidor de ingeniería?",
+        "respuesta": "En el servidor de ingeniería se encuentra información relacionada con la ingeniería, específicamente en las carpetas ETS, ETFU y EtFu."
+    },
+    {
+        "pregunta": "¿Qué es un armario nodal?",
+        "respuesta": "Un armario nodal es un armario que se sitúa junto al bus de sondas donde se alojan diferentes componentes."
+    },
+    {
+        "pregunta": "¿Qué elementos se alojan en un armario nodal?",
+        "respuesta": "En un armario nodal se alojan la entrada de alimentación de 220Vac y la fuente de alimentación."
+    },
+    {
+        "pregunta": "¿Cuál es la función principal de un armario nodal?",
+        "respuesta": "La función principal de un armario nodal es alojar los componentes necesarios para el funcionamiento del bus de sondas."
+    },
+    {
+        "pregunta": "¿Qué capacidad de corriente tiene la fuente de alimentación de 2 Vdc 6A?",
+        "respuesta": "La fuente de alimentación tiene una capacidad de corriente de 6 amperios."
+    },
+    {
+        "pregunta": "¿Cuántas sondas puede alimentar la fuente de 2 Vdc 6A?",
+        "respuesta": "La fuente de 2 Vdc 6A puede alimentar un bus completo de 127 sondas."
+    },
+    {
+        "pregunta": "¿Qué función cumplen las placas de comunicaciones (MCB) en el sistema?",
+        "respuesta": "Las placas de comunicaciones (MCB) se encargan de establecer la comunicación entre las sondas, carteles y el PC de gestión en el sistema."
+    },
+    {
+        "pregunta": "¿Qué función tiene la placa de comunicaciones (MCB) en el sistema?",
+        "respuesta": "La placa de comunicaciones (MCB) permite la comunicación de datos entre los elementos principales del sistema: PC, sondas y carteles."
+    },
+    {
+        "pregunta": "¿Qué elementos del sistema están conectados a la placa de comunicaciones (MCB)?",
+        "respuesta": "La placa de comunicaciones (MCB) conecta los elementos principales del sistema: PC, sondas y carteles."
+    },
+    {
+        "pregunta": "¿Cómo se alimenta la placa de comunicaciones (MCB)?",
+        "respuesta": "La placa de comunicaciones (MCB) se alimenta a través de una fuente de energía externa o interna, dependiendo del diseño del sistema."
+    },
+    {
+        "pregunta": "¿Cuál es la función principal de la MCB con 2 Vdc?",
+        "respuesta": "Las funciones principales de la MCB con 2 Vdc son preguntar a las sondas de su bus el estado de ocupación, transmitir al PC el estado de las sondas, transmitir a los carteles el número a representar y transmitir comandos directos a las sondas desde el PC servidor."
+    },
+    {
+        "pregunta": "¿Cómo se comunica la MCB con las sondas y el PC?",
+        "respuesta": "La MCB se comunica con las sondas a través de un puerto RS485 (Bus de sondas) y con el PC a través de otro puerto RS485 (Bus de PC)."
+    },
+    {
+        "pregunta": "¿De dónde puede provenir el número que se transmite a los carteles?",
+        "respuesta": "El número que se transmite a los carteles puede venir del PC o ser generado por la MCB a partir de los datos del bus de sondas."
+    },
+    {
+        "pregunta": "¿Qué tipo de comandos puede transmitir la MCB a las sondas desde el PC servidor?",
+        "respuesta": "La MCB puede transmitir comandos directos a las sondas desde el PC servidor."
+    },
+    {
+        "pregunta": "¿Cuál es la función del Armario MC-TFT?",
+        "respuesta": "El Armario MC-TFT hace de interfaz entre el PC servidor SONAR y el monitor TFT."
+    },
+    {
+        "pregunta": "¿Cómo se comunica el Armario MC-TFT con el programa SONAR?",
+        "respuesta": "El Armario MC-TFT se comunica con el programa SONAR a través del bus RS485 de PC para la gestión de contenidos y por medio de red local para su carga."
+    },
+    {
+        "pregunta": "¿Cuál es el número de sistema especificado para el Armario MC-TFT?",
+        "respuesta": "El número de sistema especificado es ETFU."
+    },
+    {
+        "pregunta": "¿Cuál es el contenido de la quinta edición del servidor Ingeniería en la carpeta ETS/ETFU/EtFu?",
+        "respuesta": "El contenido de la quinta edición en el servidor Ingeniería se encuentra en la carpeta ETS/ETFU/EtFu."
+    },
+    {
+        "pregunta": "¿Qué tipo de información o archivos se pueden encontrar en la quinta edición del servidor Ingeniería?",
+        "respuesta": "En la quinta edición del servidor Ingeniería se pueden encontrar archivos relacionados con ingeniería, específicamente en la carpeta ETS/ETFU/EtFu."
+    },
+    {
+        "pregunta": "¿Qué significa la abreviatura ETFU en el nombre del servidor Ingeniería?",
+        "respuesta": "ETFU probablemente hace referencia a una sección específica o departamento dentro de la ingeniería, donde se almacenan los archivos de la quinta edición."
+    },
+    {
+        "pregunta": "¿Qué funciones realiza el Servicio de comunicaciones en el sistema de gestión del aparcamiento?",
+        "respuesta": "El Servicio de comunicaciones gestiona las comunicaciones del PC con las placas MCB y MC-TFT, las sondas y los carteles."
+    },
+    {
+        "pregunta": "¿Qué hace el programa SONAR en el sistema de gestión del aparcamiento?",
+        "respuesta": "El programa SONAR se encarga de la configuración del sistema, la gestión de su funcionamiento y almacena en una base de datos los eventos que se van produciendo."
+    },
+    {
+        "pregunta": "¿Qué tipo de información proporciona el programa SONAR al usuario del aparcamiento?",
+        "respuesta": "El programa SONAR proporciona distintos listados que ayudan a la explotación del aparcamiento y presenta individualmente o agrupadas el estado de ocupación de las plantas del aparcamiento en tiempo real."
+    },
+    {
+        "pregunta": "¿Cómo interacciona el programa SONAR con las sondas y carteles del sistema de gestión del aparcamiento?",
+        "respuesta": "El programa SONAR interacciona directamente con las sondas y carteles para enviarles comandos o pedirles información."
+    },
+    {
+        "pregunta": "¿Qué edición es la que se encuentra en el servidor \"SERVIDOR iNGENIERIA\\ETS\\ETFU\\EtFu\"?",
+        "respuesta": "La 5ª edición."
+    },
+    {
+        "pregunta": "¿Cuál es la ruta completa del servidor \"SERVIDOR iNGENIERIA\\ETS\\ETFU\\EtFu\"?",
+        "respuesta": "La ruta completa es \\SERVIDOR iNGENIERIA\\ETS\\ETFU\\EtFu."
+    },
+    {
+        "pregunta": "¿Qué tipo de contenido se encuentra en el servidor \"SERVIDOR iNGENIERIA\\ETS\\ETFU\\EtFu\"?",
+        "respuesta": "Contenido relacionado con ingeniería, específicamente de la ETS y ETFU."
+    },
+    {
+        "pregunta": "¿Qué es el CCPCMC y para qué se utiliza?",
+        "respuesta": "El CCPCMC es una herramienta que nos permite enviar comandos directos a los distintos elementos del sistema sin necesidad del programa SONAR ni el servicio de comunicaciones. Se utiliza principalmente para la configuración inicial del sistema."
+    },
+    {
+        "pregunta": "¿Qué función cumple el bus de PC en un sistema de control de monitor?",
+        "respuesta": "El bus de PC es el circuito que conecta las comunicaciones de todas las MCB y controladoras de monitor con el PC, permitiendo la transferencia de datos entre ellos."
+    },
+    {
+        "pregunta": "¿Qué tipo de bus es el bus de PC?",
+        "respuesta": "El bus de PC es un bus RS485 que se encarga de conectar todas las placas MCB de manera secuencial con el PC."
+    },
+    {
+        "pregunta": "¿Cómo se realiza la conexión del bus de PC al PC?",
+        "respuesta": "La conexión al PC se puede realizar a través de un conversor RS485 a USB o mediante una placa interna de puertos nativos."
+    },
+    {
+        "pregunta": "¿Qué tipo de alimentación se requiere para el sistema SONAR?",
+        "respuesta": "La alimentación del sistema SONAR se efectúa a partir de un cuadro general de 220Vac monofásica, cumpliendo la normativa de instalaciones eléctricas de baja tensión."
+    },
+    {
+        "pregunta": "¿Qué se debe proporcionar a todos los armarios nodales y armarios MC-TFT en relación a la alimentación?",
+        "respuesta": "Se debe proporcionar alimentación de 220V + línea de tierra a todos los armarios nodales y a los armarios MC-TFT del sistema SONAR."
+    },
+    {
+        "pregunta": "¿Cómo se divide la alimentación del sistema SONAR dependiendo de la estructura del aparcamiento?",
+        "respuesta": "La alimentación del sistema SONAR se divide en las líneas necesarias dependiendo de la estructura del aparcamiento donde se instale."
+    },
+    {
+        "pregunta": "¿Qué edición es la que se está utilizando?",
+        "respuesta": "La edición es la número 5."
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del servidor?",
+        "respuesta": "El nombre del servidor es \"SERVIDOR iNGENIERIA\"."
+    },
+    {
+        "pregunta": "¿Cuál es la ruta completa del archivo o carpeta?",
+        "respuesta": "La ruta completa es \\SERVIDOR iNGENIERIA\\ETS\\ETFU\\EtFu."
+    },
+    {
+        "pregunta": "¿Qué dispositivos están conectados al bus PC?",
+        "respuesta": "En el bus PC están conectadas la fuente de alimentación de 5V, las sondas, el monitor TFT y el armario MC-TFT."
+    },
+    {
+        "pregunta": "¿Qué tipo de conexión se utiliza para conectar la inyectora de cabecera?",
+        "respuesta": "La inyectora de cabecera se conecta a través de un conversor USB-RS."
+    },
+    {
+        "pregunta": "¿Cuál es la fuente de alimentación utilizada en el sistema?",
+        "respuesta": "Se utiliza una fuente de alimentación de 5V para alimentar varios dispositivos en el sistema."
+    },
+    {
+        "pregunta": "¿Qué tipo de conexión se utiliza para el intercambio de datos entre los dispositivos TCPIP?",
+        "respuesta": "Los dispositivos TCPIP se conectan a través de una conexión de red TCP/IP."
+    },
+    {
+        "pregunta": "¿Qué dispositivo se encarga de convertir la señal USB a RS?",
+        "respuesta": "El conversor USB-RS se encarga de convertir la señal USB a RS para poder ser utilizada por otros dispositivos."
+    },
+    {
+        "pregunta": "¿Cuál es la función de un PC servidor en este sistema?",
+        "respuesta": "El PC servidor es responsable de gestionar y controlar la red de dispositivos conectados, así como de almacenar y compartir información entre ellos."
+    },
+    {
+        "pregunta": "¿Qué tipo de alimentación utilizan los dispositivos en este sistema?",
+        "respuesta": "Los dispositivos utilizan una fuente de alimentación de 72V."
+    },
+    {
+        "pregunta": "¿Qué es un armario nodal en este contexto?",
+        "respuesta": "Un armario nodal es un espacio físico donde se concentran y conectan varios dispositivos de la red, facilitando la gestión y mantenimiento de los mismos."
+    },
+    {
+        "pregunta": "¿Qué función cumple un switch Ethernet en este sistema?",
+        "respuesta": "El switch Ethernet se encarga de gestionar la comunicación entre los dispositivos conectados a la red, permitiendo el intercambio de datos a través del protocolo TCP/IP."
+    },
+    {
+        "pregunta": "¿Cuál es el objetivo del sistema GUIA SONAR?",
+        "respuesta": "La finalidad del sistema GUIA SONAR es orientar al usuario del aparcamiento para que localice rápidamente las plazas libres que haya en cada momento."
+    },
+    {
+        "pregunta": "¿Qué beneficios se obtienen al utilizar el sistema GUIA SONAR?",
+        "respuesta": "Se consigue un mayor grado de satisfacción del usuario y una disminución de gastos al reducir el tiempo de circulación, lo que implica ahorro en combustible y disminución de la contaminación."
+    },
+    {
+        "pregunta": "¿Por qué es importante implementar un sistema como GUIA SONAR en un aparcamiento?",
+        "respuesta": "Es importante implementar GUIA SONAR en un aparcamiento para mejorar la experiencia del usuario, facilitar la búsqueda de plazas libres y reducir los costos asociados al tiempo de circulación."
+    },
+    {
+        "pregunta": "¿Cómo funciona el detector de plaza libre/ocupada?",
+        "respuesta": "El detector de plaza libre/ocupada utiliza emisores-receptores de ultrasonidos para discriminar el estado de ocupación de la plaza, iluminando con luz verde (azul en caso de plaza de minusválido) si está libre y cambiando a color rojo si está ocupada."
+    },
+    {
+        "pregunta": "¿Cómo se agrupan los detectores de plazas libre/ocupado?",
+        "respuesta": "Los detectores de plazas libre/ocupado se agrupan en buses para facilitar el tratamiento de determinadas zonas, como los viales. Cada bus de sondas confluye en una placa de comunicaciones (MCB)."
+    },
+    {
+        "pregunta": "¿Qué información muestra el cartel indicador de ocupación de zona?",
+        "respuesta": "El cartel indicador de ocupación de zona muestra el número de plazas libres en la zona asignada, normalmente con dos o cuatro dígitos y una flecha que indica la zona representada. También se pueden instalar carteles totalizadores que representen el número de plazas libres de una combinación de zonas o plantas del aparcamiento."
+    },
+    {
+        "pregunta": "¿Cómo se pueden diseñar los carteles indicadores en zonas muy iluminadas?",
+        "respuesta": "En zonas muy iluminadas, como exteriores, en lugar de utilizar carteles estándar se pueden diseñar tótems con carteles estancos que utilizan leds de muy alta luminosidad (CUMA)."
+    },
+    {
+        "pregunta": "¿Cuál es la función de los armarios nodales en un aparcamiento?",
+        "respuesta": "Los armarios nodales se sitúan estratégicamente en el aparcamiento para proporcionar alimentación, comunicación a los paneles luminosos y grupos de sondas entre sí, así como comunicación con el PC de gestión SONAR."
+    },
+    {
+        "pregunta": "¿Para qué sirve el interruptor de alimentación en el armario módulo de control de bus de sondas?",
+        "respuesta": "El interruptor de alimentación protege los elementos del armario de posibles cortocircuitos y permite la conexión/desconexión de la alimentación a los elementos conectados al armario."
+    },
+    {
+        "pregunta": "¿Qué función cumple la fuente de alimentación en el armario módulo de control de bus de sondas?",
+        "respuesta": "La fuente de alimentación convierte la tensión alterna de alimentación de red (220V /50Hz.) en tensión continua de 72 voltios para alimentar un grupo de sondas y carteles (Bus)."
+    },
+    {
+        "pregunta": "¿Cuántas sondas puede alimentar la fuente de alimentación de un armario?",
+        "respuesta": "La fuente de alimentación de un armario puede alimentar hasta unas 120 sondas. Cada cartel puede consumir el equivalente a cinco sondas."
+    },
+    {
+        "pregunta": "¿Qué es el módulo de Control de Bus (MCB) en el armario módulo de control de bus de sondas?",
+        "respuesta": "El Módulo de Control de Bus es una placa electrónica que gestiona las comunicaciones entre las sondas, los carteles y el PC de gestión SONAR, disponiendo de dos puertos RS485 para ello."
+    },
+    {
+        "pregunta": "¿Cómo se alimenta el sistema sonar?",
+        "respuesta": "El sistema sonar se alimenta a 72 voltios DC directamente desde la fuente del armario."
+    },
+    {
+        "pregunta": "¿Qué proporciona el bus de sondas además de la alimentación de 72 voltios?",
+        "respuesta": "El bus de sondas proporciona la alimentación de 72 voltios a sondas y carteles."
+    },
+    {
+        "pregunta": "¿Qué se puede hacer con el conector RJ45 adicional?",
+        "respuesta": "El conector RJ45 adicional permite reinyectar la alimentación de 72 voltios en el punto que se requiera."
+    },
+    {
+        "pregunta": "¿Cuántas MCB se pueden incluir en el mismo armario si la fuente de alimentación lo permite?",
+        "respuesta": "Se pueden incluir varias MCB en el mismo armario si la fuente de alimentación lo permite por el número de sondas."
+    },
+    {
+        "pregunta": "¿Qué función cumple el armario módulo de control de monitor TFT (MC-TFT)?",
+        "respuesta": "El armario MC-TFT se sitúa cerca de un cartel tipo TFT y proporciona alimentación y comunicaciones con el PC SONAR."
+    },
+    {
+        "pregunta": "¿Qué elementos contiene el armario módulo de control de monitor TFT (MC-TFT)?",
+        "respuesta": "El MC-TFT contiene una placa de comunicaciones que actúa como intermediario entre el PC SONAR y el monitor TFT, así como un conjunto de alimentaciones."
+    },
+    {
+        "pregunta": "¿Qué controla la placa de comunicaciones (MC-TFT) en el monitor TFT?",
+        "respuesta": "La placa de comunicaciones controla la representación de contenidos en el monitor TFT, como el número de plazas libres o videos publicitarios, a través de su salida HDMI."
+    },
+    {
+        "pregunta": "¿Qué tipo de cable se utiliza para la conexión de los distintos elementos en el sistema de gestión de aparcamiento?",
+        "respuesta": "Se utilizan cables tipo red local estándar recto realizados con cable UTP categoría 5e ó 6 terminados en dos conectores RJ45 macho."
+    },
+    {
+        "pregunta": "¿Cuál es la finalidad de los perfiles metálicos tipo TC-47 suspendidos del techo mediante varillas roscadas M6 en el sistema de gestión de aparcamiento?",
+        "respuesta": "La finalidad es soportar los detectores de plaza libre/ocupada en su posición, los carteles indicadores de plazas libres y alojar el cableado entre los distintos elementos del sistema."
+    },
+    {
+        "pregunta": "¿Qué elementos conforman el cableado completo del parking en el sistema de gestión de aparcamiento?",
+        "respuesta": "Los elementos son la alimentación, el bus de comunicaciones con el PC SONAR RS-485, el bus de sondas y la conexión cartel Cuma."
+    },
+    {
+        "pregunta": "¿Qué tipo de alimentación se utilizará en los armarios nodales?",
+        "respuesta": "La alimentación será de 220V y se llevará a través de un conducto independiente con mangueras libres de halógenos según normativa de baja tensión."
+    },
+    {
+        "pregunta": "¿Qué elementos se suministrarán a través de la manguera en los armarios nodales?",
+        "respuesta": "A través de la manguera se suministrará fase, neutro y tierra."
+    },
+    {
+        "pregunta": "¿Qué normativa se debe cumplir en cuanto al tipo de mangueras utilizadas en la instalación?",
+        "respuesta": "Las mangueras utilizadas deben ser libres de halógenos según la normativa de baja tensión."
+    },
+    {
+        "pregunta": "¿Cuál es el consumo máximo de cada armario y a qué voltaje?",
+        "respuesta": "El consumo máximo de cada armario es de unos 600 vatios a 230V."
+    },
+    {
+        "pregunta": "¿Qué se debe hacer con el cable de tierra en cada armario?",
+        "respuesta": "En cada armario se debe sacar un cable de tierra que irá conectado al punto más próximo de la bandeja metálica."
+    },
+    {
+        "pregunta": "¿Qué se debe hacer si la bandeja metálica está separada en varios tramos?",
+        "respuesta": "En caso de que la bandeja esté separada en varios tramos, hay que llevarles a todos ellos la conexión a tierra."
+    },
+    {
+        "pregunta": "¿Qué tipo de bus de comunicaciones se utiliza para conectar el PC con los controladores de bus MCB?",
+        "respuesta": "Se utiliza el bus de comunicaciones PC SONAR."
+    },
+    {
+        "pregunta": "¿Cómo se realiza el cableado entre el PC y los controladores de bus MCB?",
+        "respuesta": "El cableado es punto a punto desde el primer elemento al último."
+    },
+    {
+        "pregunta": "¿Qué tipo de convertidor se utiliza para conectar el cable de comunicaciones al PC?",
+        "respuesta": "Se utiliza un convertidor tipo Moxa RS-485 con dos puertos (pudiendo haber más de dos puertos) y un adaptador DB9 a RJ45."
+    },
+    {
+        "pregunta": "¿Qué tipo de cables se utilizan para unir todos los elementos del bus?",
+        "respuesta": "Se utilizan cables tipo red local recto (UTP categoría 6 terminados en conectores RJ45 macho)."
+    },
+    {
+        "pregunta": "¿Cuál es la función del bus de sondas en una MCB?",
+        "respuesta": "El bus de sondas en una MCB sirve para llevar las comunicaciones entre la MCB y sus sondas y carteles, así como para suministrar la alimentación de 72 voltios a las mismas."
+    },
+    {
+        "pregunta": "¿Cómo se deben conectar las sondas en el bus de sondas de una MCB?",
+        "respuesta": "Las sondas se deben conectar en cascada, con un cable que parte de la MCB del armario nodal y termina en la sonda más cercana, y luego cada cable une una sonda con la siguiente. En caso de un ramal extremadamente largo, puede ser necesario reinyectar alimentación con un cable adicional."
+    },
+    {
+        "pregunta": "¿Qué tipo de cables se recomienda utilizar para el bus de sondas?",
+        "respuesta": "Se recomienda utilizar latiguillos de cable categoría 6 terminados en conectores RJ-45 macho. Se deben utilizar cables prefabricados siempre que sea posible, pero nunca se debe instalar un cable del bus de sondas sin haberlo verificado previamente."
+    },
+    {
+        "pregunta": "¿Qué precauciones se deben tomar si una parte del bus de sondas está expuesta a condiciones agresivas?",
+        "respuesta": "Se debe tener en cuenta la elección del tipo de cable apropiado para proteger las sondas de condiciones agresivas como la intemperie o arquetas subterráneas. Las sondas nunca deben estar expuestas a filtraciones de agua, ya que podrían quedar inutilizadas."
+    },
+    {
+        "pregunta": "¿Qué tipo de carteles CUMA se pueden instalar en el exterior?",
+        "respuesta": "En algunos casos se pueden instalar carteles de alta luminosidad tipo CUMA con tres o cuatro dígitos y en algún caso alfanumérico."
+    },
+    {
+        "pregunta": "¿Cómo se conectan los carteles CUMA a un PC SONAR?",
+        "respuesta": "Los carteles CUMA se conectan a una MCB que se reserva específicamente para ellos, la cual indica a cada cartel el valor a representar que le indica el PC."
+    },
+    {
+        "pregunta": "¿Cómo se alimenta un cartel CUMA con 72V?",
+        "respuesta": "Para facilitar su alimentación de 72V, es conveniente situar la MCB de CUMA en el armario más próximo al cartel y llevar el cable con el bus RS-485 hasta él."
+    },
+    {
+        "pregunta": "¿Qué cables deben estar conectados en el bus RS485?",
+        "respuesta": "El bus RS485 debe tener conectados los tres cables A, B y GND."
+    },
+    {
+        "pregunta": "¿Dónde se puede encontrar más información sobre el conexionado de los carteles CUMA?",
+        "respuesta": "Se puede encontrar más información en el documento \"Esquemas de cableado/conexionado sistema SONAR\" que se encuentra en el Foro EQUINSA."
+    },
+    {
+        "pregunta": "¿Cuál es la primera fase del procedimiento de instalación del sistema SONAR?",
+        "respuesta": "La primera fase consiste en el diseño de la instalación partiendo de un plano del aparcamiento."
+    },
+    {
+        "pregunta": "¿Cómo se distribuyen los carteles en el aparcamiento?",
+        "respuesta": "Estudiando los viales principales y sus intersecciones, se hace una distribución de los carteles a instalar, teniendo en cuenta puntos de decisión como intersecciones, cambios de planta y zonas sin posible retorno."
+    },
+    {
+        "pregunta": "¿Qué se recomienda para conseguir un refresco de estados de sondas y carteles más rápido?",
+        "respuesta": "Se recomienda que las sondas que van a estar representadas en un cartel estén agrupadas en el mismo bus que el cartel, conectado a una MCB. Esto se llama bus natural."
+    },
+    {
+        "pregunta": "¿Cuál es el número máximo de sondas que puede alimentar un armario?",
+        "respuesta": "El número máximo de sondas que puede alimentar un armario es de aproximadamente 100, por lo cual si se tienen dos buses cortos que entre los dos no superan las 100 sondas, se pueden poner sus dos MCB en el mismo armario."
+    },
+    {
+        "pregunta": "¿Qué sucede cuando un cartel tiene que representar el estado de sondas que no están conectadas a su misma MCB?",
+        "respuesta": "En ese caso, es el PC el que le envía el número a mostrar, lo cual puede retrasar un poco el refresco de valores, como en el caso de los totalizadores de planta."
+    },
+    {
+        "pregunta": "¿Por qué es importante la colocación estratégica de los armarios nodales en un sistema de detección de aparcamientos?",
+        "respuesta": "La colocación estratégica de los armarios nodales facilita la conexión de las sondas y del bus de PC, asegurando que todas las sondas reciban la alimentación necesaria y que el sistema funcione correctamente. Además, permite un fácil acceso para labores de mantenimiento."
+    },
+    {
+        "pregunta": "¿Por qué es importante la calidad de detección del sistema de detección de aparcamientos?",
+        "respuesta": "La calidad de detección del sistema de detección de aparcamientos depende en gran medida de la colocación de los sensores y de la ausencia de obstáculos físicos e interferencias radioeléctricas en el aparcamiento. Una detección precisa garantiza un funcionamiento eficiente y fiable del sistema."
+    },
+    {
+        "pregunta": "¿Cuál es la altura recomendada para la instalación del perfil del sistema de sondas?",
+        "respuesta": "La altura recomendada es de 2,5 metros, evitando alturas superiores que pueden afectar la fiabilidad de la detección."
+    },
+    {
+        "pregunta": "¿Cuál es la distancia horizontal óptima entre el fondo de la plaza y la vertical de la sonda?",
+        "respuesta": "La distancia horizontal óptima es de 4,7 metros aproximadamente, pudiendo llegar a un máximo de 5,5 metros. Cuanto más cerca esté la sonda de la posición recomendada, mayor será la probabilidad de éxito en la detección."
+    },
+    {
+        "pregunta": "¿Por qué es importante colocar la sonda por fuera de la línea de columnas del vial?",
+        "respuesta": "Es importante para permitir su visibilidad y evitar perturbaciones radioeléctricas. Se recomienda que la sonda esté a un mínimo de 50 centímetros de las pantallas de iluminación."
+    },
+    {
+        "pregunta": "¿Qué sucede si la altura de instalación de la sonda es inferior a 2,20 metros?",
+        "respuesta": "La fiabilidad de la detección puede verse afectada y la sonda puede estar expuesta a vandalismo. Se recomienda evitar alturas inferiores a 2,20 metros."
+    },
+    {
+        "pregunta": "¿Cómo se fija el perfil TC47 al techo?",
+        "respuesta": "El perfil TC47 se fija al techo colgándolo por medio de varillas M6 y utilizando la pieza roscada de fijación por cuarto de giro (Pieza de cuelgue) y una contratuerca de seguridad."
+    },
+    {
+        "pregunta": "¿Cuál es la separación recomendada entre varillas para fijar el perfil?",
+        "respuesta": "La separación recomendada entre varillas para fijar el perfil es de 1,25 a 1,6 metros."
+    },
+    {
+        "pregunta": "¿Cómo se fija la varilla al techo?",
+        "respuesta": "La varilla se fija al techo con un accesorio de varilla M6 mediante clavos de acero y disparo con máquina."
+    },
+    {
+        "pregunta": "¿Por qué es importante colocar la contratuerca en las dos piezas de fijación?",
+        "respuesta": "Es importante colocar la contratuerca en las dos piezas de fijación para garantizar una óptima estabilidad de los perfiles y evitar que se descuelguen lateralmente."
+    },
+    {
+        "pregunta": "¿Qué son los casos especiales que dificultan la detección del vehículo en el sistema sonar?",
+        "respuesta": "Los casos especiales son situaciones que nos obligan a tomar medidas especiales para detectar el vehículo, como la extensión de la sonda."
+    },
+    {
+        "pregunta": "¿Qué medidas especiales se deben tomar en casos especiales de detección de vehículos en el sistema sonar?",
+        "respuesta": "En casos especiales, como la extensión de sonda, se deben tomar medidas especiales para poder detectar correctamente el vehículo."
+    },
+    {
+        "pregunta": "¿Por qué es importante evitar que haya obstáculos fijos delante de la sonda y a una altura más baja que la cápsula detectora superior?",
+        "respuesta": "Es importante evitar obstáculos fijos delante de la sonda y a una altura más baja que la cápsula detectora superior para garantizar la eficacia en la detección del vehículo."
+    },
+    {
+        "pregunta": "¿Qué se debe hacer en el caso de plazas de aparcamiento situadas en batería diagonal para evitar perder eficacia en la detección del vehículo?",
+        "respuesta": "En el caso de plazas de aparcamiento situadas en batería diagonal, se debe situar uno de los dos sensores de detección fuera de la sonda, en la vertical del centro de la posición esperada del vehículo, por medio de un tramo de perfil perpendicular al principal y un cable apantallado alargador."
+    },
+    {
+        "pregunta": "¿Qué sensor se debe sustituir en el caso 1 según las recomendaciones del manual de instalación?",
+        "respuesta": "En el caso 1, se debe sustituir el sensor que hace la detección más vertical (Sensor 1) ya que su probabilidad de detección es menor que la del sensor 2 (Haz de detección más inclinado)."
+    },
+    {
+        "pregunta": "¿Qué suministra Equinsa para la instalación del sistema sonar?",
+        "respuesta": "Equinsa suministra una “T” de unión del perfil, un cable apantallado de 3 metros para la cápsula sensor y la pieza que lo soporta en su extremo, asegurando la unión de todas las piezas de la infraestructura con tornillos autoroscantes."
+    },
+    {
+        "pregunta": "¿Dónde se debe situar la sonda en el eje del hueco real de la plaza?",
+        "respuesta": "La sonda se debe situar en el eje del hueco real de la plaza, centrada en la posición esperada del vehículo."
+    },
+    {
+        "pregunta": "¿Por qué es importante alinear estéticamente las sondas que comparten eje perpendicular a los pasillos?",
+        "respuesta": "Es importante estéticamente para mantener una apariencia uniforme y ordenada en la instalación."
+    },
+    {
+        "pregunta": "¿Qué es necesario verificar antes de conectar cualquier cable de sonda?",
+        "respuesta": "Se debe verificar con un comprobador de cables Ethernet para evitar conexiones erróneas que puedan dañar las sondas."
+    },
+    {
+        "pregunta": "¿Cómo se fijan los carteles LED en su lugar previsto?",
+        "respuesta": "Los carteles se fijan atornillándolos a un tramo de perfil, realizando taladros en la canaleta que los soporta y utilizando tornillos, separadores y tuercas."
+    },
+    {
+        "pregunta": "¿Cómo se realiza la conexión de los carteles LED una vez fijados en su lugar?",
+        "respuesta": "Se conectan los conectores RJ45 de los cables de entrada y salida a los carteles y se colocan las tapas laterales para finalizar la instalación."
+    },
+    {
+        "pregunta": "¿Cómo se puede fijar un cartel a la parte superior del perfil?",
+        "respuesta": "Se puede utilizar un procedimiento similar al de fijación al techo, con varillas M6 y tuercas y contratuercas."
+    },
+    {
+        "pregunta": "¿Qué problema puede surgir si se fija un cartel al techo en un lugar con corrientes de aire?",
+        "respuesta": "Si el techo es muy alto y hay corrientes de aire, la inestabilidad del cartel puede aumentar, provocando posibles caídas."
+    },
+    {
+        "pregunta": "¿En qué situación se utiliza la fijación por la parte trasera del perfil del cartel?",
+        "respuesta": "Se utiliza cuando hay dos carteles espalda con espalda (Vial de doble sentido)."
+    },
+    {
+        "pregunta": "¿Qué se debe hacer después de instalar el cartel utilizando esta fijación?",
+        "respuesta": "Se debe asegurar que el cartel se ha quedado perfectamente vertical."
+    },
+    {
+        "pregunta": "¿Qué diámetro deben tener los taladros que se realizan en el eje de la cara de la canaleta para fijar el cartel?",
+        "respuesta": "Los taladros deben tener un diámetro de 4 milímetros."
+    },
+    {
+        "pregunta": "¿A qué distancia deben estar separados los taladros en el eje de la cara de la canaleta?",
+        "respuesta": "Los taladros deben estar separados unos 10 centímetros menos de la longitud del cartel."
+    },
+    {
+        "pregunta": "¿Qué medidas deben tener los tornillos utilizados para fijar el cartel al perfil de aluminio?",
+        "respuesta": "Los tornillos deben ser métrica 4 por 20 milímetros."
+    },
+    {
+        "pregunta": "¿Cómo se fija el cartel al perfil de aluminio?",
+        "respuesta": "Se introducen las cabezas hexagonales de los tornillos en el canal trasero del perfil y se utilizan tuercas M4 y arandelas para fijarlo."
+    },
+    {
+        "pregunta": "¿Qué se debe conectar al cartel una vez fijado al perfil de aluminio?",
+        "respuesta": "Se deben conectar los conectores RJ45 de los cables de entrada y salida al cartel."
+    },
+    {
+        "pregunta": "¿Qué se debe hacer una vez conectados los cables al cartel?",
+        "respuesta": "Se deben colocar las tapas laterales en el perfil de aluminio para finalizar la instalación."
+    },
+    {
+        "pregunta": "¿Cuál es el proceso para instalar un segundo cartel del mismo tipo?",
+        "respuesta": "Se debe repetir el proceso de fijación, conexión de cables y colocación de tapas laterales con el segundo cartel."
+    },
+    {
+        "pregunta": "¿Qué tipo de cable se utiliza para conectar la placa de comunicaciones con el monitor TFT?",
+        "respuesta": "Se utiliza un cable HDMI de datos."
+    },
+    {
+        "pregunta": "¿Dónde se enchufa la fuente de alimentación del monitor?",
+        "respuesta": "Se enchufa en la toma de 220 v del carril DIN del armario."
+    },
+    {
+        "pregunta": "¿Qué tipo de conector se utiliza para conectar la fuente de alimentación al monitor?",
+        "respuesta": "Se utiliza un conector tipo Jack."
+    },
+    {
+        "pregunta": "¿Qué tipo de conectores se utilizan para los cables de entrada y salida del bus de PC?",
+        "respuesta": "Se utilizan conectores RJ45."
+    },
+    {
+        "pregunta": "¿Cómo se configura el monitor?",
+        "respuesta": "Para configurar el monitor, se debe utilizar el botón tipo joystick situado en la parte inferior y entrar en el menú. Se deben seguir las instrucciones de ajuste de idioma, brillo, contraste, volumen, entrada HDMI, relación panorámico y funciones de ahorro de energía."
+    },
+    {
+        "pregunta": "¿Qué se debe seleccionar en el menú de configuración del monitor?",
+        "respuesta": "En el menú de configuración del monitor se debe seleccionar el idioma español, encender el LED de alimentación, desbloquear el OSD, ajustar brillo y contraste al valor 100, apagar el volumen, seleccionar la entrada HDMI1, seleccionar la relación panorámico y desactivar la función de ahorro de energía."
+    },
+    {
+        "pregunta": "¿Qué se debe hacer para que el monitor no entre en Stand by?",
+        "respuesta": "Para evitar que el monitor entre en Stand by, se debe seleccionar la opción \"OFF\" en la función de Super energy saving en el menú de configuración."
+    },
+    {
+        "pregunta": "¿Qué sucedería si se pulsa en REINICIAR?",
+        "respuesta": "Volvería a los ajustes iniciales."
+    },
+    {
+        "pregunta": "¿Cómo se detalla la configuración de los contenidos a representar en los monitores TFT en el manual de usuario del sistema SONAR?",
+        "respuesta": "En el manual de usuario del sistema SONAR se detalla la configuración de los contenidos a representar en los monitores TFT."
+    },
+    {
+        "pregunta": "¿Qué programa se utiliza para programar los parámetros de los HUB's desde el PC?",
+        "respuesta": "Se utiliza el programa TestMCB para programar los parámetros de los HUB's desde el PC."
+    },
+    {
+        "pregunta": "¿Cómo se configura la dirección de las MCB's?",
+        "respuesta": "La dirección de las MCB's se configura con el programa TestMCB. Cada hub de tipo MCB o MC-TFT debe tener una dirección (Id) distinta, comenzando desde la dirección 129 hacia arriba. La dirección por defecto es 128, pero siempre se recomienda cambiar este valor en la instalación."
+    },
+    {
+        "pregunta": "¿Cómo se envía la dirección que le corresponde a cada hub por medio del TestMCB?",
+        "respuesta": "Para enviarle la dirección que le corresponde a cada hub por medio del TestMCB, se utiliza el comando [128]W[129]P1, donde la dirección 129 es la dirección del primer hub."
+    },
+    {
+        "pregunta": "¿Cómo se programa la sonda máxima con el programa TestMCB?",
+        "respuesta": "La sonda máxima se programa con el comando [128]W[180]M0, donde 128 es la dirección del hub y 180 es el valor de la sonda máxima."
+    },
+    {
+        "pregunta": "¿Qué es la sonda máxima en un bus?",
+        "respuesta": "La sonda máxima es el valor de la dirección más alta de las sondas en un bus."
+    },
+    {
+        "pregunta": "¿Cuál es el valor de la sonda máxima en un ejemplo de programación?",
+        "respuesta": "En un ejemplo de programación, el valor de la sonda máxima puede ser 180, por ejemplo."
+    },
+    {
+        "pregunta": "¿Cuál es el valor más bajo de las direcciones de los carteles propios y espejos que están conectados a su bus?",
+        "respuesta": "El valor más bajo de las direcciones de los carteles propios y espejos es 252."
+    },
+    {
+        "pregunta": "¿Cómo se considera la dirección de un cartel propio?",
+        "respuesta": "La dirección de un cartel propio se considera como los dígitos menos significativos de los carteles en el mismo hub (Bus natural)."
+    },
+    {
+        "pregunta": "¿Cómo se realiza la configuración de un cartel propio mínimo?",
+        "respuesta": "La configuración se realiza enviando por medio del TestMCB el comando [130]W[239]M1, donde se establece la dirección del hub y el valor del cartel mínimo."
+    },
+    {
+        "pregunta": "¿Qué parámetros se pueden programar en las sondas?",
+        "respuesta": "Se pueden programar parámetros como la dirección del hub, el valor del cartel mínimo, entre otros."
+    },
+    {
+        "pregunta": "¿Qué es la dirección en el contexto de las sondas conectadas al mismo bus?",
+        "respuesta": "La dirección es el identificador que nos permite distinguir unas de otras las sondas que están conectadas al mismo bus."
+    },
+    {
+        "pregunta": "¿Qué sucede si dos sondas del mismo bus tienen la misma dirección?",
+        "respuesta": "Todas las sondas del mismo bus deben tener direcciones distintas."
+    },
+    {
+        "pregunta": "¿Cómo se numeran las direcciones de las sondas en un bus?",
+        "respuesta": "Se empieza a numerar desde la 128 hacia arriba, pudiendo llegar hasta 253 si no hay carteles."
+    },
+    {
+        "pregunta": "¿Cómo se configuran las direcciones de las sondas?",
+        "respuesta": "Se configuran una a una con el programador de infrarrojos."
+    },
+    {
+        "pregunta": "¿Cómo se verifica que la programación de una sonda fue exitosa?",
+        "respuesta": "Es fundamental verificar que, una vez programada, la sonda parpadea en verde confirmando la programación. En caso de parpadear en rojo, no ha recibido el comando y hay que repetirlo."
+    },
+    {
+        "pregunta": "¿Cómo funciona la sonda para comprobar si la plaza está ocupada?",
+        "respuesta": "La sonda envía un pulso de ultrasonidos y escucha si le retorna el eco para determinar la distancia del blanco (vehículo)."
+    },
+    {
+        "pregunta": "¿Qué sucede si la sonda recibe el eco muy pronto?",
+        "respuesta": "Si la sonda recibe el eco muy pronto, interpreta que el blanco (vehículo) está muy próximo."
+    },
+    {
+        "pregunta": "¿Qué se logra ajustando el valor del umbral en la sonda?",
+        "respuesta": "Ajustando el valor del umbral se recorta la distancia máxima de medida, evitando considerar el rebote en el suelo como plaza ocupada."
+    },
+    {
+        "pregunta": "¿Cómo se programa la sonda de doble sensor?",
+        "respuesta": "En la sonda de doble sensor se programan dos umbrales, uno para el sensor vertical (Inferior) y otro para el sensor horizontal (Superior)."
+    },
+    {
+        "pregunta": "¿Cómo se puede configurar la sonda de manera más práctica?",
+        "respuesta": "Se puede configurar la sonda de manera más práctica utilizando el programador de infrarrojos para enviar comandos a todo el hub a través del TestMCB."
+    },
+    {
+        "pregunta": "¿Cuáles son los ejemplos de envío de umbrales mencionados en el contenido?",
+        "respuesta": "Los ejemplos de envío de umbrales son: Umbral 1 valor 1, Umbral 1 valor 2, Umbral 1 valor 11, Umbral 2 valor 1, Umbral 2 valor 2 y Umbral 2 valor 11."
+    },
+    {
+        "pregunta": "¿Qué significa que se debe repetir el envío del comando varias veces al enviarlo \"a todos\"?",
+        "respuesta": "Se debe repetir el envío del comando varias veces al enviarlo \"a todos\" para asegurarse de que todas las sondas lo han recibido."
+    },
+    {
+        "pregunta": "¿Qué es el parámetro Repeticiones para rojo y cómo se configura en una sonda?",
+        "respuesta": "El parámetro Repeticiones para rojo consiste en el número de veces seguidas que tiene que recibir un eco para conmutar a rojo en una sonda. Se puede configurar sonda a sonda con el programador de infrarrojos o por buses completos enviando el comando [128]S[255]V[78]."
+    },
+    {
+        "pregunta": "¿Qué hacer si una sonda pasa esporádicamente a rojo sin vehículo?",
+        "respuesta": "En ese caso, se puede probar a subir el número de repeticiones para rojo a 40 ó 50, o verificar si tiene una cápsula averiada."
+    },
+    {
+        "pregunta": "¿Cómo se programa los parámetros de un cartel electrónico con tres elementos distintos?",
+        "respuesta": "Cada elemento del cartel tiene una dirección (Id) específica. Por ejemplo, el display aspa/flecha del cartel viene de fábrica con la dirección 253, el display dígitos menor significado con la dirección 252, y el display dígitos más significativos hay que cambiar el valor de fábrica 252."
+    },
+    {
+        "pregunta": "¿Cuáles serían las direcciones para instalar un segundo cartel de tres dígitos?",
+        "respuesta": "Las direcciones serían: aspa/flecha dirección 250, dos dígitos menos significativos dirección 249 y dos dígitos más significativos dirección..."
+    },
+    {
+        "pregunta": "¿Cómo se calculan los valores de los carteles?",
+        "respuesta": "Se calculan restando tres unidades al valor del cartel anterior."
+    },
+    {
+        "pregunta": "¿Qué es un cartel propio?",
+        "respuesta": "Un cartel propio es aquel que representa las sondas de su propio bus y solo hay uno en el mismo bus."
+    },
+    {
+        "pregunta": "¿Qué es un cartel espejo?",
+        "respuesta": "Un cartel espejo es aquel que representa el mismo valor que el cartel propio, y puede haber varios en el mismo bus."
+    },
+    {
+        "pregunta": "¿Qué es un cartel impropio?",
+        "respuesta": "Un cartel impropio es aquel que representa valores distintos al propio, como valores de contadores."
+    },
+    {
+        "pregunta": "¿Cómo se pueden cambiar las direcciones de un cartel?",
+        "respuesta": "Las direcciones de un cartel se pueden cambiar elemento a elemento con el programador de infrarrojos o con el TestMCB."
+    },
+    {
+        "pregunta": "¿Qué es el TestMCB y cómo se utiliza?",
+        "respuesta": "El TestMCB es un dispositivo de prueba que se utiliza para enviar comandos y cambiar las direcciones de los carteles de forma manual."
+    },
+    {
+        "pregunta": "¿Cómo se cambia la dirección de fábrica de un Display Aspa/flecha de 253 a 250?",
+        "respuesta": "El comando sería [128]S[253]S[250]."
+    },
+    {
+        "pregunta": "¿Cómo se cambia la dirección de fábrica de los dígitos menos significativos de 252 a 249?",
+        "respuesta": "El comando sería [128]S[252]S[249]."
+    },
+    {
+        "pregunta": "¿Cuáles son las direcciones posibles para los carteles?",
+        "respuesta": "Las direcciones posibles van desde la 252 hacia abajo de tres en tres."
+    },
+    {
+        "pregunta": "¿Cómo se configuran los carteles impropios?",
+        "respuesta": "Se configuran con las direcciones por debajo del display mínimo."
+    },
+    {
+        "pregunta": "¿Qué se hace si un bus no lleva ningún cartel propio?",
+        "respuesta": "Se configura el display mínimo al valor 254."
+    },
+    {
+        "pregunta": "¿Qué es un sistema sonar?",
+        "respuesta": "Un sistema sonar es un dispositivo que utiliza ondas sonoras para detectar objetos bajo el agua."
+    },
+    {
+        "pregunta": "¿Para qué se utiliza un sistema sonar?",
+        "respuesta": "Un sistema sonar se utiliza principalmente en aplicaciones marinas para detectar la presencia de peces, submarinos u otros objetos bajo el agua."
+    },
+    {
+        "pregunta": "¿Cómo se instala un sistema sonar?",
+        "respuesta": "La instalación de un sistema sonar puede variar dependiendo del modelo específico, pero generalmente implica montar el transductor en el casco de la embarcación y conectarlo al dispositivo de visualización en el puente."
+    },
+    {
+        "pregunta": "¿Por qué es importante seguir el manual de instalación del sistema sonar?",
+        "respuesta": "Es importante seguir el manual de instalación del sistema sonar para garantizar su correcto funcionamiento y para evitar daños tanto al equipo como a la embarcación."
+    },
+    {
+        "pregunta": "¿Qué es un bus mixto?",
+        "respuesta": "Un bus mixto es un vehículo de transporte público que contiene tanto carteles propios (publicidad del servicio) como carteles impropios (publicidad externa)."
+    },
+    {
+        "pregunta": "¿Por qué un bus mixto contiene carteles impropios?",
+        "respuesta": "Los carteles impropios en un bus mixto son utilizados para generar ingresos adicionales a través de la publicidad externa, lo que ayuda a subsidiar los costos operativos del servicio de transporte público."
+    },
+    {
+        "pregunta": "¿Cuál es la diferencia entre carteles propios y carteles impropios en un bus mixto?",
+        "respuesta": "Los carteles propios son aquellos que promocionan el propio servicio de transporte público, como rutas, horarios o tarifas; mientras que los carteles impropios son de publicidad externa de empresas o marcas que pagan por espacio publicitario en el vehículo."
+    },
+    {
+        "pregunta": "¿Qué beneficios pueden tener los usuarios de un bus mixto con carteles impropios?",
+        "respuesta": "Los usuarios de un bus mixto con carteles impropios pueden beneficiarse de tarifas más bajas o de mejoras en el servicio gracias a los ingresos generados por la publicidad externa."
+    },
+    {
+        "pregunta": "¿Cuál es la función del programa SONAR en el servidor de gestión?",
+        "respuesta": "El programa SONAR controla el funcionamiento del sistema en el servidor de gestión."
+    },
+    {
+        "pregunta": "¿Cómo se instala el programa SONAR en el PC?",
+        "respuesta": "Para instalar el programa SONAR en el PC, se debe ejecutar el programa Descarga de actualizaciones que se encuentra en el Foro Equinsa Parking, descargar la última versión del instalador SONAR y ejecutarlo como administrador."
+    },
+    {
+        "pregunta": "¿Qué pasos debemos seguir durante la instalación del programa SONAR?",
+        "respuesta": "Durante la instalación del programa SONAR, se debe seleccionar el idioma, pulsar Aceptar y cerrar las aplicaciones abiertas en el PC."
+    },
+    {
+        "pregunta": "¿Dónde se puede encontrar el manual de instalación del sistema SONAR?",
+        "respuesta": "El manual de instalación del sistema SONAR se encuentra bajo el número MA-IN en el Foro Equinsa Parking."
+    },
+    {
+        "pregunta": "¿Qué acción debemos realizar después de pulsar \"Siguiente\" por primera vez?",
+        "respuesta": "Mantener la carpeta de instalación por defecto."
+    },
+    {
+        "pregunta": "¿Qué debemos hacer una vez que hayamos mantenido la carpeta de instalación por defecto?",
+        "respuesta": "Pulsar \"Siguiente\" nuevamente."
+    },
+    {
+        "pregunta": "¿Qué acción debemos realizar después de pulsar \"Siguiente\" por segunda vez?",
+        "respuesta": "Pulsar \"Instalar\"."
+    },
+    {
+        "pregunta": "¿Qué número de manual de instalación se refiere en el contenido?",
+        "respuesta": "Número: MA-IN-"
+    },
+    {
+        "pregunta": "¿Qué debemos hacer después de pulsar Probar conexión en la ventana que aparece?",
+        "respuesta": "Después de pulsar Probar conexión, debemos pulsar Aceptar y después Siguiente."
+    },
+    {
+        "pregunta": "¿Qué debemos hacer una vez que llegamos a la pantalla del registro de licencia?",
+        "respuesta": "En la pantalla del registro de licencia, debemos solicitar a Equinsa Parking la activación de la licencia de uso enviando por correo electrónico el Id. de producto que aparece en la imagen."
+    },
+    {
+        "pregunta": "¿Qué pasos debemos seguir para activar la licencia una vez recibido el Id. de producto?",
+        "respuesta": "Una vez recibido el Id. de producto, debemos introducir el Código de licencia y pulsar Aceptar para que la licencia quede activada."
+    },
+    {
+        "pregunta": "¿Qué sucede si no disponemos del Código de activación de licencia al momento de instalar el programa SONAR?",
+        "respuesta": "En ese caso, podemos pulsar el botón \"Aceptar\" sin introducirlo y obtendremos una licencia provisional durante un mes para comenzar a utilizar el programa."
+    },
+    {
+        "pregunta": "¿Cómo se activa la licencia del programa SONAR de Equinsa Parking?",
+        "respuesta": "Para activar la licencia del programa SONAR de Equinsa Parking, se debe ejecutar el programa RegistroLicenciaSONAR.exe como Administrador, ubicado en la carpeta C:\\Program Files (x86)\\EQUINSA\\SONAR, introducir el Código de licencia recibido y pulsar Aceptar."
+    },
+    {
+        "pregunta": "¿En qué carpeta se deben colocar los planos de las plantas de un aparcamiento en el sistema SONAR?",
+        "respuesta": "En la carpeta \"planos\" dentro de la instalación del programa SONAR, ubicada en C:\\Program Files (x86)\\EQUINSA\\SONAR."
+    },
+    {
+        "pregunta": "¿Qué extensión deben tener los planos de las plantas en el sistema SONAR?",
+        "respuesta": "Los planos deben tener extensión .bmp."
+    },
+    {
+        "pregunta": "¿Qué tamaño debe tener el fichero de cada plaza de aparcamiento en el sistema SONAR?",
+        "respuesta": "El tamaño del fichero debe ser tal que la longitud de cada plaza sea de aproximadamente 80 píxeles."
+    },
+    {
+        "pregunta": "¿Qué pasos se deben seguir para preparar un plano de planta en formato dwg para el sistema SONAR?",
+        "respuesta": "Abrir el plano con AutoCAD u otro software compatible, poner el fondo de la pantalla en blanco, convertir todos los elementos a negro, eliminar partes innecesarias, cerrar cualquier plaza de aparcamiento incompleta, medir el largo de la plaza en unidades de AutoCAD y calcular la escala de trazado."
+    },
+    {
+        "pregunta": "¿Cómo se calcula la escala de trazado para un plano de planta en el sistema SONAR?",
+        "respuesta": "La escala de trazado se calcula dividiendo la longitud de la plaza entre 80. Por ejemplo, si la longitud es 5 unidades de Autocad, la escala sería 5/80=0,0625."
+    },
+    {
+        "pregunta": "¿Cuál es el primer paso para ajustar el zoom en AutoCAD?",
+        "respuesta": "El primer paso es ajustar el zoom para que el plano aparezca completo en la pantalla de AutoCAD."
+    },
+    {
+        "pregunta": "¿Qué se debe seleccionar en el menú Archivo para trazar el plano?",
+        "respuesta": "Se debe seleccionar Archivo > Trazar."
+    },
+    {
+        "pregunta": "¿Qué se debe hacer en la casilla de Escala de trazado?",
+        "respuesta": "En la casilla de Escala de trazado se debe desmarcar la casilla Escala hasta ajustar y colocar el valor de la escala calculada antes."
+    },
+    {
+        "pregunta": "¿Qué se debe hacer con la casilla de Píxeles antes de trazar?",
+        "respuesta": "En la casilla de Píxeles se debe poner el valor 1 antes de trazar."
+    },
+    {
+        "pregunta": "¿Qué se debe seleccionar en el área de trazado?",
+        "respuesta": "Se debe seleccionar la ventana que abarque toda la planta en el área de trazado."
+    },
+    {
+        "pregunta": "¿Dónde se debe archivar el plano una vez trazado?",
+        "respuesta": "Se debe archivar en la ruta C:\\Program Files (x86)\\EQUINSA\\SONAR\\planos con un nombre de archivo específico como Sotano 1, Planta-1, etc."
+    },
+    {
+        "pregunta": "¿Qué debemos hacer para insertar los planos de las plantas en nuestro aparcamiento?",
+        "respuesta": "Para insertar los planos de las plantas en nuestro aparcamiento, debemos entrar en el Modo de edición pulsando F11 en la ventana principal de la aplicación. Luego, pulsamos con el botón derecho sobre la ventana activa y seleccionamos Nuevo plano, donde rellenamos la Descripción con un nombre identificativo y seleccionamos la ruta del plano. Para el primer plano, seleccionamos la posición 0,0 que es la esquina superior izquierda de la ventana."
+    },
+    {
+        "pregunta": "¿Cómo podemos editar los datos introducidos en el sistema?",
+        "respuesta": "Podemos editar los datos pulsando botón derecho sobre el mismo y luego en Propiedades plano.\nPregunta: ¿Qué pestaña aparece en la ventana al pulsar en Aceptar?\nRespuesta: Aparece una nueva pestaña con el nuevo plano, la cual llamamos sinóptico.\nPregunta: ¿Cómo podemos cambiar de pestaña en el sistema?\nRespuesta: Para cambiar de pestaña hay que salir previamente del modo edición pulsando la tecla F11.\nPregunta: ¿Qué se debe hacer para insertar el resto de las plantas en el sistema?\nRespuesta: Para insertar el resto de las plantas debemos volver a la pestaña sinóptico (P000), entrar en modo edición y pulsar con el botón derecho en el punto donde queramos situar la esquina superior izquierda del nuevo plano.\nPregunta: ¿Qué se debe hacer si se quiere variar alguno de los parámetros introducidos en el sistema?\nRespuesta: Si se quiere variar alguno de los parámetros introducidos, se debe pulsar botón derecho sobre el plano y luego en Propiedades plano para desplegar la ventana del plano."
+    },
+    {
+        "pregunta": "¿Qué es un HUB en el contexto de la inserción en la vista de planta?",
+        "respuesta": "Un HUB es una placa de comunicaciones que se encarga de gestionar las comunicaciones entre el PC servidor y sondas y carteles, o entre las sondas y los carteles de un mismo bus."
+    },
+    {
+        "pregunta": "¿Cómo se inserta un HUB en la vista de planta?",
+        "respuesta": "Para insertar un HUB en la vista de planta, se debe abrir la vista de la planta deseada, entrar en modo edición pulsando F11, hacer clic con el botón derecho del ratón en la posición del plano donde está el armario del HUB y seleccionar Nuevo HUB."
+    },
+    {
+        "pregunta": "¿Qué se debe hacer después de insertar un HUB en la vista de planta?",
+        "respuesta": "Después de insertar un HUB en la vista de planta, se debe introducir una descripción para identificarlo, seleccionar el puerto serie del PC al que está conectado el bus de PC, seleccionar una dirección (empezando por 128 y aumentando para los siguientes HUB) y luego aceptar."
+    },
+    {
+        "pregunta": "¿Cómo se puede personalizar la apariencia de un HUB en la vista de planta?",
+        "respuesta": "Se puede personalizar la apariencia de un HUB en la vista de planta cambiando sus dimensiones (Dim X y Dim Y) pulsando con el botón derecho sobre él y seleccionando Propiedades Hub."
+    },
+    {
+        "pregunta": "¿Qué precaución se debe tener al insertar múltiples HUB en la vista de planta?",
+        "respuesta": "Al insertar múltiples HUB en la vista de planta, se debe asegurar que cada uno tenga una dirección diferente para evitar conflictos. Se recomienda incrementar la dirección de cada HUB para que no haya dos con la misma dirección."
+    },
+    {
+        "pregunta": "¿Cómo se introduce una sonda en la vista de la planta?",
+        "respuesta": "Una vez diseñado el recorrido del bus de sondas, se introducen en el plano partiendo de la sonda más cercana a la MCB en cada tramo del bus."
+    },
+    {
+        "pregunta": "¿Qué se hace después de seleccionar el HUB al que está conectada la sonda?",
+        "respuesta": "Después de seleccionar el HUB al que está conectada la sonda, se selecciona la primera dirección de sondas del bus, que en este caso es la 128."
+    },
+    {
+        "pregunta": "¿Qué se debe hacer para entrar en el modo edición de la planta?",
+        "respuesta": "Para entrar en el modo edición de la planta, se debe pulsar F11."
+    },
+    {
+        "pregunta": "¿Cómo se añade una nueva sonda en la vista de la planta?",
+        "respuesta": "Para añadir una nueva sonda en la vista de la planta, se pulsa con el botón derecho en el interior de la plaza deseada y se selecciona \"Nueva sonda\"."
+    },
+    {
+        "pregunta": "¿Qué sucede si no definimos previamente la zona para agrupar las sondas?",
+        "respuesta": "Si no definimos previamente la zona para agrupar las sondas, estas quedan asignadas por defecto a la zona Z001."
+    },
+    {
+        "pregunta": "¿Cómo se van incrementando automáticamente las direcciones de las sondas al introducirlas?",
+        "respuesta": "Las direcciones de las sondas se incrementan automáticamente al introducirlas, de modo que solo es necesario pulsar \"Nueva sonda\" y \"Enter\" para añadir todas las sondas del bus."
+    },
+    {
+        "pregunta": "¿Qué opción marcamos para representar el texto de las sondas con su dirección?",
+        "respuesta": "Para representar el texto de las sondas con su dirección, marcamos la opción correspondiente durante la inserción de las sondas."
+    },
+    {
+        "pregunta": "¿Qué casillas deben estar marcadas para ver las capas de Hubs, Sondas y Carteles?",
+        "respuesta": "Para ver las capas de Hubs, Sondas y Carteles, deben estar marcadas las casillas correspondientes."
+    },
+    {
+        "pregunta": "¿Cómo se inserta un cartel en el bus de sondas del HUB (MCB)?",
+        "respuesta": "Para insertar un cartel en el bus de sondas del HUB (MCB), debemos abrir la vista de la planta deseada, entrar en modo edición pulsando F11, hacer clic con el botón derecho del ratón en la posición del plano donde queremos situar el cartel y seleccionar la opción de Nuevo cartel. Luego, en Descripción debemos poner un nombre que nos identifique y seleccionar el HUB al que está conectado."
+    },
+    {
+        "pregunta": "¿Qué información se debe incluir en la descripción al insertar un cartel en el bus de sondas del HUB (MCB)?",
+        "respuesta": "En la descripción al insertar un cartel en el bus de sondas del HUB (MCB) se debe incluir un nombre que nos identifique para el cartel en cuestión."
+    },
+    {
+        "pregunta": "¿Qué se debe hacer después de seleccionar el HUB al insertar un cartel en el bus de sondas del HUB (MCB)?",
+        "respuesta": "Después de seleccionar el HUB al insertar un cartel en el bus de sondas del HUB (MCB), debemos seguir las indicaciones del manual de instalación del sistema sonar, que incluye un número de referencia: MA-IN- (Manual de Instalación)."
+    },
+    {
+        "pregunta": "¿Qué debemos marcar si queremos que muestre las sondas libres del bus en el que está conectado?",
+        "respuesta": "Debemos marcar la casilla de \"Libres propias\"."
+    },
+    {
+        "pregunta": "¿Qué debemos hacer si queremos que muestre el valor de un contador?",
+        "respuesta": "Debemos seleccionarlo de la lista, asegurándonos de que esté previamente definido."
+    },
+    {
+        "pregunta": "¿Qué debemos marcar si queremos que sume los libres minusválidos?",
+        "respuesta": "Debemos marcar la casilla correspondiente si queremos que los sume, o no marcarla si no queremos que los sume."
+    },
+    {
+        "pregunta": "¿Cómo se orienta mecánicamente el pictograma de los carteles SONAR?",
+        "respuesta": "El pictograma se orienta mecánicamente."
+    },
+    {
+        "pregunta": "¿Qué opción aparece para otros modelos de cartel?",
+        "respuesta": "Aparece la opción \"software\" para otros modelos de cartel (Softlock)."
+    },
+    {
+        "pregunta": "¿Cómo podemos agrupar las sondas en grupos llamados Zonas?",
+        "respuesta": "Podemos agrupar determinadas sondas en grupos (Zonas) para tratarlas separadamente de las demás de su bus, o incluso para agruparlas con las de otros buses."
+    },
+    {
+        "pregunta": "¿Cómo se crea una nueva zona para asignar las sondas?",
+        "respuesta": "Para crear una nueva zona, se debe pulsar en Nuevo y aparecerá la pantalla correspondiente en la vis ta que nos encontremos, pulsando Ctrl + F11 y después el botón Zonas."
+    },
+    {
+        "pregunta": "¿Qué sucede por defecto con las sondas creadas hasta el momento?",
+        "respuesta": "Por defecto, todas las sondas creadas hasta ahora han sido asignadas a la Zona 001 que se crea automáticamente."
+    },
+    {
+        "pregunta": "¿Qué opciones tenemos al tener varias zonas definidas?",
+        "respuesta": "Al tener varias zonas definidas, podremos al crear nuevas sondas asignarlas a la zona que deseemos, así como editar las sondas para cambiarlas de Zona."
+    },
+    {
+        "pregunta": "¿Qué debemos hacer para crear una nueva zona en el sistema?",
+        "respuesta": "Mantenemos el Nombre sin modificar e introducimos la Descripción que nos permita identificar la nueva zona, luego pulsamos Aceptar."
+    },
+    {
+        "pregunta": "¿Por qué es conveniente crear las zonas antes de las sondas?",
+        "respuesta": "Es conveniente crear las zonas antes de las sondas porque al crearlas ya las asignamos a la zona deseada, facilitando la organización del sistema."
+    },
+    {
+        "pregunta": "¿Cuántas zonas podemos crear en el sistema?",
+        "respuesta": "Podemos crear todas las zonas que deseemos, no hay un límite establecido."
+    },
+    {
+        "pregunta": "¿Qué es un contador en el sistema SONAR?",
+        "respuesta": "Un contador es un valor numérico que se calcula a partir de operaciones matemáticas con variables ya definidas en el sistema SONAR."
+    },
+    {
+        "pregunta": "¿Cómo se crea un contador en el sistema SONAR?",
+        "respuesta": "Para crear un contador en el sistema SONAR, se debe ir a la ventana de Contadores, seleccionar la opción Nuevo y luego introducir el Nombre, Descripción y la expresión matemática que se utilizará para calcular el valor final del contador."
+    },
+    {
+        "pregunta": "¿Qué información se debe introducir al crear un contador en el sistema SONAR?",
+        "respuesta": "Al crear un contador en el sistema SONAR, se debe introducir el Nombre, una Descripción que identifique al contador, y la expresión matemática que se utilizará para calcular su valor."
+    },
+    {
+        "pregunta": "¿Qué variables se pueden utilizar en la expresión matemática de un contador en el sistema SONAR?",
+        "respuesta": "En la expresión matemática de un contador en el sistema SONAR se pueden utilizar variables que ya están definidas en el sistema, junto con su significado."
+    },
+    {
+        "pregunta": "¿Cuál es la fórmula para calcular el número de plazas libres en un HUB?",
+        "respuesta": "Para calcular el número de plazas libres en un HUB, se debe restar el valor del contador HXXX al número mostrado en el cartel XXXX."
+    },
+    {
+        "pregunta": "¿Cómo se puede determinar el número de plazas libres en una zona si se conoce el número de plazas libres en un plano y en el HUB?",
+        "respuesta": "Para determinar el número de plazas libres en una zona, se debe sumar el número de plazas libres en el plano XXX y en el HUB XXX."
+    },
+    {
+        "pregunta": "Si el valor del contador en el cartel es NXXX y la constante XXXX es 100, ¿cuál sería el resultado de multiplicarlos?",
+        "respuesta": "El resultado de multiplicar el valor del contador NXXX por la constante XXXX sería 100 * NXXX."
+    },
+    {
+        "pregunta": "¿Qué operador se utilizaría para calcular el número de plazas libres en una zona si se sabe el valor del contador y la constante?",
+        "respuesta": "Se utilizaría el operador de multiplicación (*) para calcular el número de plazas libres en una zona multiplicando el valor del contador por la constante."
+    },
+    {
+        "pregunta": "¿Qué función tiene el servicio de comunicaciones?",
+        "respuesta": "El servicio de comunicaciones se encarga de gestionar todas las comunicaciones entre el PC y hubs, sondas y carteles."
+    },
+    {
+        "pregunta": "¿Qué sucede si intentamos utilizar el servicio de comunicaciones y el TesMCB al mismo tiempo?",
+        "respuesta": "No se pueden utilizar simultáneamente, es necesario cerrar uno para poder utilizar el otro."
+    },
+    {
+        "pregunta": "¿Cómo se accede al servicio de comunicaciones?",
+        "respuesta": "Para acceder al servicio de comunicaciones, primero hay que pasar a modo administrador en el Gestor de aplicaciones SONAR y hacer click en scSONAR."
+    },
+    {
+        "pregunta": "¿Qué debemos hacer si queremos detener el servicio en ejecución?",
+        "respuesta": "Simplemente pulsar el botón Detener.\nPregunta: ¿Qué debemos hacer si queremos reiniciar o iniciar nuevamente el servicio?\nRespuesta: Pulsar el botón Reiniciar o Iniciar, respectivamente.\nPregunta: ¿Dónde se encuentra el botón para iniciar el servicio si este está detenido?\nRespuesta: En el Modo Servicio, no en el Modo Aplicación."
+    },
+    {
+        "pregunta": "¿Qué es el TestMCB y para qué se utiliza?",
+        "respuesta": "El TestMCB es un programa que permite enviar comandos a sondas, carteles y HUBs a través del puerto RS-485 desde el PC."
+    },
+    {
+        "pregunta": "¿Dónde se puede descargar el programa TestMCB?",
+        "respuesta": "Se puede descargar en el foro Equinsa parking."
+    },
+    {
+        "pregunta": "¿Es necesario instalar el TestMCB antes de utilizarlo?",
+        "respuesta": "No, es un ejecutable que no requiere instalación."
+    },
+    {
+        "pregunta": "¿Qué precaución se debe tener antes de ejecutar el TestMCB?",
+        "respuesta": "Es importante asegurarse de que esté detenido el servicio de comunicaciones SONAR."
+    },
+    {
+        "pregunta": "¿Qué se debe hacer una vez que se ejecuta el TestMCB.exe?",
+        "respuesta": "Aparecerá el icono en la barra de tareas y al hacer doble click se desplegará la pantalla del programa."
+    },
+    {
+        "pregunta": "¿Qué se debe hacer para hacer visibles las pestañas ocultas en el TestMCB?",
+        "respuesta": "Se debe pulsar la tecla F1."
+    },
+    {
+        "pregunta": "¿Cómo se selecciona el puerto COM en la pestaña de Configuración del TestMCB?",
+        "respuesta": "Se debe seleccionar el puerto de la placa Moxa o el asignado al conversor USB-RS485 y luego pulsar \"Aplicar cambios\"."
+    },
+    {
+        "pregunta": "¿Qué se despliega al pulsar el botón Depuración en la pestaña Depuración?",
+        "respuesta": "Se despliega la pantalla principal del programa que tiene distintas zonas."
+    },
+    {
+        "pregunta": "¿Qué opciones encontramos en la zona de selección de Comando?",
+        "respuesta": "En la zona de selección de Comando encontramos dos pestañas para enviar comandos a Hub y su cartel propio o a Sondas y carteles."
+    },
+    {
+        "pregunta": "¿Qué pasos debemos seguir para configurar la dirección de la MCB?",
+        "respuesta": "Para configurar la dirección de la MCB debemos seleccionar la dirección en la ventana Dir.Hub, seleccionar el comando Ajustar \"dirección hub\" en la ventana Hub y su cartel propio, seleccionar la dirección que queremos enviar en X(dir.microcom), y pulsar en Enviar comando."
+    },
+    {
+        "pregunta": "¿Qué aparece después de pulsar en Enviar comando para cambiar la dirección?",
+        "respuesta": "Después de pulsar en Enviar comando para cambiar la dirección, aparecerá varias veces una ventana que nos pregunta si estamos seguros de querer cambiar la dirección, a lo que respondemos afirmativamente."
+    },
+    {
+        "pregunta": "¿Dónde se visualiza la información que se envía y recibe desde el HUB?",
+        "respuesta": "La información que se envía y se recibe desde el HUB se visualiza en la ventana de Trazas de comunicaciones PC."
+    },
+    {
+        "pregunta": "¿Cómo se ajusta la sonda máxima de la MCB 129 a un valor de 157?",
+        "respuesta": "Para ajustar la sonda máxima de la MCB 129 a un valor de 157, primero seleccionamos la dirección 129 de la MCB en la ventana Dir.Hub, luego seleccionamos en la ventana Hub y su cartel propio el comando Ajustar \"sonda máxima hub\", seguido de seleccionar la dirección de la sonda máxima que queremos enviar a 157 en X(dir.sonda) y por último pulsar en Enviar comando."
+    },
+    {
+        "pregunta": "¿Qué información se obtiene al pulsar el botón Estado sondas?",
+        "respuesta": "Al pulsar el botón Estado sondas se obtiene la información del estado de las sondas que están conectadas al bus de la MCB, mostrando cada sonda con su dirección y el color de su estado, que puede ser libre, ocupada, bloqueada a libre, bloqueada a ocupado o sin comunicación."
+    },
+    {
+        "pregunta": "¿Cómo se ajusta la estrategia de repeticiones de la sonda verde o rojo?",
+        "respuesta": "Para ajustar la estrategia de repeticiones de la sonda verde o rojo, se debe seleccionar la dirección 129 de la MCB en la ventana Dir.Hub, luego seleccionar en la ventana Sondas y carteles el comando Ajustar \"estrategia 2: repeticiones sonda verde o rojo\"."
+    },
+    {
+        "pregunta": "¿Cómo seleccionamos la dirección en X de la sonda a la cual queremos enviar el comando?",
+        "respuesta": "Seleccionamos la dirección en X(dir.sonda) de la sonda a la cual queremos enviar el comando, en este caso 255 para enviar a todas las sondas del bus."
+    },
+    {
+        "pregunta": "¿Qué valor se selecciona en X(valor parám) para enviar a todas las sondas del bus en el ejemplo dado?",
+        "respuesta": "Seleccionamos en X(valor parám) el valor que queremos enviar a todas las sondas del bus de la MCB 129, en este caso 88(40)."
+    },
+    {
+        "pregunta": "¿Cómo se puede consultar la información de cada sonda?",
+        "respuesta": "Se puede consultar la información de cada sonda pulsando en el botón \"Info sonda\", la sonda responderá con la información de los parámetros de configuración que tiene."
+    },
+    {
+        "pregunta": "¿Qué parámetros debemos configurar en las sondas para calcular sus valores?",
+        "respuesta": "Debemos configurar la dirección, los umbrales 1 y 2, y el número de veces para rojo según las condiciones de respuesta de la sonda."
+    },
+    {
+        "pregunta": "¿Cómo podemos hacer pruebas rápidas en las sondas?",
+        "respuesta": "Podemos bajar el Time Out al valor 1 para que la respuesta de la sonda sea más rápida, pero es importante restituir el valor 3 una vez finalizadas las pruebas."
+    },
+    {
+        "pregunta": "¿Cómo podemos calcular los umbrales de las sondas para evitar detectar el suelo?",
+        "respuesta": "Podemos utilizar la herramienta en el programador que nos ayuda a hacerlo, variando los umbrales hasta tener el máximo umbral sin que detecte el suelo y dejando una unidad menos del valor en el que se queda apagada la luz como margen de seguridad."
+    },
+    {
+        "pregunta": "¿Qué hacer si una sonda se pone en rojo esporádicamente en vacío?",
+        "respuesta": "Activar VER AMBOS ECOS y comprobar si se estabiliza disminuyendo ligeramente el umbral necesario. Si no se soluciona así, ajustar el número de veces para rojo a 40. Si persiste, cambiar la cápsula detectora y volver a los ajustes iniciales."
+    },
+    {
+        "pregunta": "¿Qué ajustes debemos hacer si estamos midiendo una plaza en línea (detección lateral)?",
+        "respuesta": "Debemos rebajar el Umbral 2 a 4, 3, 2 o 1 para evitar que los ecos reflejados en la pared sean considerados como ecos válidos. Es importante dejar ajustado el valor más alto posible para una detección óptima."
+    },
+    {
+        "pregunta": "¿Cómo se calcularán los valores de los dos umbrales en este caso?",
+        "respuesta": "Los valores de los dos umbrales se calcularán como se indicaba al principio, pero el valor de ajuste del Umbral correspondiente al sensor de la extensión será mucho más bajo (3, 2 o 1) al hacer la detección vertical."
+    },
+    {
+        "pregunta": "¿Qué hacer si una sonda conmuta esporádicamente a rojo estando vacía?",
+        "respuesta": "Comprobar cuál es de los dos umbrales entrando en el modo VER AMBOS ECOS y retocarlo una unidad. Si no se corrige de ese modo, puede estar defectuosa la cápsula detectora correspondiente y se debe sustituir por una nueva."
+    },
+    {
+        "pregunta": "¿Qué hacer si algunas sondas dispersas aparecen sin comunicación en el PC?",
+        "respuesta": "Localizar las sondas en el parking y, con el programador, preguntar su dirección. Si contestan con la 255 (Dirección de fábrica), se deben volver a programar."
+    },
+    {
+        "pregunta": "¿Qué hacer si todo el parking aparece sin comunicación?",
+        "respuesta": "- Iniciar el servicio de comunicaciones\n- Detener el TestMCB si está corriendo al mismo tiempo y reiniciar el servicio\n- Conectar el cable del bus del PC si está desconectado\n- Reconfigurar el puerto de comunicación del conversor USB -RS485 del bus de PC en el administrador de dispositivos\n- Revisar que el puerto de comunicación está configurado correctamente en el programa Sonar con el dispositivo RS-485."
+    },
+    {
+        "pregunta": "¿Dónde se pueden descargar los esquemas de cableado del sistema SONAR ExCb15XX?",
+        "respuesta": "Los esquemas de cableado del sistema SONAR ExCb15XX se pueden descargar del Foro EQUINSA en el enlace proporcionado."
+    },
+    {
+        "pregunta": "¿Qué herramienta se puede descargar para configurar MCB, carteles y sondas del sistema SONAR?",
+        "respuesta": "Se puede descargar la herramienta TestMCB de configuración MCB, carteles y sondas del sistema SONAR."
+    },
+    {
+        "pregunta": "¿Qué tipo de documentos se pueden encontrar en el Foro EQUINSA respecto al sistema SONAR?",
+        "respuesta": "En el Foro EQUINSA se pueden encontrar documentos como el manual de instalación del sistema SONAR, esquemas de cableado y conexión, entre otros."
+    },
+    {
+        "pregunta": "¿Qué tipo de dispositivo es el PROGRAMADOR CON INFRARROJOS SONAR?",
+        "respuesta": "El PROGRAMADOR CON INFRARROJOS SONAR es un dispositivo electrónico."
+    },
+    {
+        "pregunta": "¿Qué función cumple el PROGRAMADOR CON INFRARROJOS SONAR?",
+        "respuesta": "El PROGRAMADOR CON INFRARROJOS SONAR sirve para programar dispositivos a través de señales infrarrojas."
+    },
+    {
+        "pregunta": "¿Cuál es el código de identificación del PROGRAMADOR CON INFRARROJOS SONAR?",
+        "respuesta": "El código de identificación del PROGRAMADOR CON INFRARROJOS SONAR es MA-IN-036."
+    },
+    {
+        "pregunta": "¿Cuál es el número de identificación del manual de instalación del sistema SONAR?",
+        "respuesta": "El número de identificación del manual de instalación del sistema SONAR es MA-IN-2."
+    },
+    {
+        "pregunta": "¿Qué información se puede encontrar en el manual de instalación del sistema SONAR?",
+        "respuesta": "En el manual de instalación del sistema SONAR se pueden encontrar instrucciones detalladas sobre cómo instalar y configurar el sistema SONAR."
+    },
+    {
+        "pregunta": "¿Dónde se puede obtener una copia del manual de instalación del sistema SONAR?",
+        "respuesta": "Se puede obtener una copia del manual de instalación del sistema SONAR solicitándolo al proveedor del sistema SONAR o descargándolo desde la página web oficial del fabricante."
+    },
+    {
+        "pregunta": "¿Por qué es importante seguir las instrucciones del manual de instalación del sistema SONAR?",
+        "respuesta": "Es importante seguir las instrucciones del manual de instalación del sistema SONAR para garantizar una instalación correcta y un funcionamiento óptimo del sistema. Además, seguir las instrucciones puede ayudar a prevenir posibles problemas técnicos en el futuro."
+    },
+    {
+        "pregunta": "¿Cuál es el objetivo del programador con infrarrojos de sondas y carteles SONAR?",
+        "respuesta": "El objetivo es explicar conceptos básicos que hay que tener en cuenta a la hora de programar las sondas y carteles SONAR."
+    },
+    {
+        "pregunta": "¿Qué criterios se deben tener en cuenta al programar las sondas y carteles SONAR?",
+        "respuesta": "Los criterios que se deben tener en cuenta están descritos en el párrafo mencionado."
+    },
+    {
+        "pregunta": "¿Cómo se calculan los valores de los parámetros de las sondas?",
+        "respuesta": "Los valores de los parámetros de las sondas se calculan siguiendo el vínculo proporcionado en el texto."
+    },
+    {
+        "pregunta": "¿Por qué es importante calcular los valores de los parámetros de las sondas?",
+        "respuesta": "Es importante calcular los valores de los parámetros de las sondas para garantizar su correcto funcionamiento y precisión en la medición."
+    },
+    {
+        "pregunta": "¿Qué sucede si no se calculan correctamente los valores de los parámetros de las sondas?",
+        "respuesta": "Si no se calculan correctamente los valores de los parámetros de las sondas, se pueden obtener mediciones inexactas o incoherentes."
+    },
+    {
+        "pregunta": "¿Qué opciones se encuentran en el menú principal del programador?",
+        "respuesta": "En el menú principal del programador se encuentran las opciones de programar sonda, utilidades COMS, ajuste del programador y apagar."
+    },
+    {
+        "pregunta": "¿Qué comandos están disponibles dentro de la opción \"Programar Sonda\"?",
+        "respuesta": "Los comandos disponibles dentro de la opción \"Programar Sonda\" incluyen programar dirección automáticamente, ajustar porcentaje de ecos rojos, ajustar umbrales, entre otros."
+    },
+    {
+        "pregunta": "¿Qué acciones se pueden realizar dentro de la sección \"Otros Comandos\"?",
+        "respuesta": "Dentro de la sección \"Otros Comandos\" se pueden realizar acciones como realizar pruebas de sondas o carteles, bloquear o desbloquear colores, ajustar estrategias, entre otros."
+    },
+    {
+        "pregunta": "¿Qué utilidades se pueden encontrar en la sección \"Utilidades COM\"?",
+        "respuesta": "En la sección \"Utilidades COM\" se pueden encontrar utilidades como test en difusión, test en cadena, comandos de difusión, entre otros."
+    },
+    {
+        "pregunta": "¿Qué ajustes se pueden realizar dentro de la sección \"Ajuste Programador\"?",
+        "respuesta": "Dentro de la sección \"Ajuste Programador\" se pueden realizar ajustes de contraste, iluminación, idioma, versión, y número de serie del programador."
+    },
+    {
+        "pregunta": "¿Cuáles son las opciones disponibles en la sección \"Dime tus Datos\"?",
+        "respuesta": "Las opciones disponibles en la sección \"Dime tus Datos\" incluyen preguntar por la dirección, umbrales, ganancia, porcentajes de ecos rojos y verdes, y estrategia del programador."
+    },
+    {
+        "pregunta": "¿Qué opciones se presentan en la sección \"Ajuste Estrategia\"?",
+        "respuesta": "En la sección \"Ajuste Estrategia\" se presentan opciones de ajuste estratégico como procentual y veces seguidas."
+    },
+    {
+        "pregunta": "¿Qué acciones se pueden realizar dentro de la sección \"Depurar Ecos\"?",
+        "respuesta": "Dentro de la sección \"Depurar Ecos\" se pueden realizar acciones como ver ecos sin transmisión, con transmisión, ver transmisiones, y ver ambos ecos."
+    },
+    {
+        "pregunta": "¿Qué podemos hacer con el menú de programación de la sonda?",
+        "respuesta": "Con el menú de programación de la sonda podemos enviar comandos a las sondas individualmente utilizando el emisor de infrarrojos del programador."
+    },
+    {
+        "pregunta": "¿Cómo sabemos si la sonda ha recibido un comando correctamente?",
+        "respuesta": "La sonda debe confirmar que ha recibido un comando con una ráfaga de encendidos y apagados de los leds verdes. Si parpadea en rojo significa que no lo ha recibido y debemos repetirlo."
+    },
+    {
+        "pregunta": "¿Cómo podemos programar la dirección de una sonda o cartel automáticamente?",
+        "respuesta": "Podemos programar la dirección de una sonda o cartel automáticamente enviando el comando correspondiente a cada sonda en particular."
+    },
+    {
+        "pregunta": "¿Cómo podemos saber la dirección de una sonda?",
+        "respuesta": "Podemos pedirle la dirección a la sonda enviando el comando \"DIME TUS DATOS\" o \"DIME TU DIRECCIÓN\". La sonda nos dará la dirección con un número de parpadeos en rojo (primer dígito), seguido de un número de parpadeos en verde (segundo dígito), y finalmente un número de parpadeos en rojo (tercer dígito)."
+    },
+    {
+        "pregunta": "¿Por qué una sonda puede no responder al comando \"DIME TUS DATOS\"?",
+        "respuesta": "Una sonda puede no responder al comando \"DIME TUS DATOS\" si tiene una versión de firmware que no responde a ese comando."
+    },
+    {
+        "pregunta": "¿Qué significa que la sonda conteste parpadeando con valores de 1 a 11?",
+        "respuesta": "El número de veces que parpadea representa el valor del umbral 1."
+    },
+    {
+        "pregunta": "¿Cómo puedo saber cuál es el umbral de la sonda?",
+        "respuesta": "Al enviar el comando, la sonda contestará parpadeando con valores de 1 a 11, y el número de veces que parpadea representa el valor del umbral."
+    },
+    {
+        "pregunta": "¿Cuál es la manera en la que la sonda responde al comando?",
+        "respuesta": "La sonda contestará parpadeando con valores de 1 a 11 para indicar el umbral."
+    },
+    {
+        "pregunta": "¿Qué significa si la sonda parpadea con valores del 1 al 11 al enviar el comando?",
+        "respuesta": "Representa el valor del umbral 2."
+    },
+    {
+        "pregunta": "¿Qué valores comprendidos entre 36 y 83 puede contestar la sonda al preguntarle por su ganancia (potencia)?",
+        "respuesta": "La sonda contestará con un número de parpadeos en rojo (primer dígito) seguido de un número de parpadeos en verde (segundo dígito)."
+    },
+    {
+        "pregunta": "¿Qué significa si la sonda parpadea con un número seguido de multiplicarlo por diez al preguntarle por el porcentaje de ecos rojos o verdes?",
+        "respuesta": "Representa el valor en tanto por ciento."
+    },
+    {
+        "pregunta": "¿Qué criterio de medida utiliza la sonda para hacer la conmutación a rojo o verde?",
+        "respuesta": "Porcentaje (respuesta de 1) o Número de veces seguidas (respuesta de 2)."
+    },
+    {
+        "pregunta": "¿Cómo responde la sonda al comando de ajustar el porcentaje de ecos a rojo?",
+        "respuesta": "La sonda contesta con una ráfaga de encendidos y apagados de los leds."
+    },
+    {
+        "pregunta": "¿Qué comando se debe enviar para establecer la distancia a partir de la cual se dejan de considerar los ecos recibidos con el sensor de ultrasonidos 1?",
+        "respuesta": "Se debe enviar el comando que establece la distancia a partir de la cual se dejan de considerar los ecos recibidos con el sensor de ultrasonidos 1."
+    },
+    {
+        "pregunta": "¿Cuáles son los valores comprendidos que se pueden enviar para establecer la distancia a partir de la cual se dejan de considerar los ecos recibidos?",
+        "respuesta": "Los valores comprendidos que se pueden enviar están entre 1 y 11."
+    },
+    {
+        "pregunta": "¿Dónde se puede encontrar el manual de instalación del sistema sonar?",
+        "respuesta": "El manual de instalación del sistema sonar se encuentra bajo el número MA-IN-."
+    },
+    {
+        "pregunta": "¿Qué comando se envía para establecer la distancia a partir de la cual se dejan de considerar los ecos recibidos con el sensor de ultrasonidos?",
+        "respuesta": "Se envía el comando de establecer la distancia, con valores comprendidos entre 1 y 11."
+    },
+    {
+        "pregunta": "¿Qué sucede al enviar el comando de \"TEST DE SONDA\"?",
+        "respuesta": "La sonda contesta con una ráfaga de encendidos apagados de los leds."
+    },
+    {
+        "pregunta": "¿Qué comando se debe enviar para bloquear los leds al color rojo?",
+        "respuesta": "Se debe enviar el comando \"BLOQUEAR A ROJO\"."
+    },
+    {
+        "pregunta": "¿Qué función tiene el comando \"AJUSTAR ESTRATEGIA\"?",
+        "respuesta": "Permite hacer una selección entre las dos formas de mostrar los ecos: porcentuales o número de veces."
+    },
+    {
+        "pregunta": "¿Cómo se establece el tipo de sonda con el comando correspondiente?",
+        "respuesta": "Se establece el tipo de sonda (NORMAL/MINUSVALIDO/DE PASO) al enviar el comando específico."
+    },
+    {
+        "pregunta": "¿Qué función cumple el ajuste de Timeout en el sistema de sonar?",
+        "respuesta": "El ajuste de Timeout es un retardo que se introduce entre cada dos lecturas de la sonda, permitiendo hacer más lecturas en menos tiempo y afectando a la velocidad de conmutación Rojo/Verde."
+    },
+    {
+        "pregunta": "¿Qué ocurre si la sonda no recibe ningún eco después de cierto número de medidas según el parámetro Veces para verde?",
+        "respuesta": "Si la sonda no recibe ningún eco después de tantas medidas como indica el parámetro Veces para verde, conmutará a verde."
+    },
+    {
+        "pregunta": "¿Qué función tiene la opción de Depurar Ecos en el sistema de sonar?",
+        "respuesta": "La opción de Depurar Ecos permite activar la función Ver ambos ecos, la cual indica cuál de los dos sensores está detectando (el más vertical en rojo o el más horizontal en verde) o ambos. Esto ayuda a configurar las sondas de forma independiente."
+    },
+    {
+        "pregunta": "¿Qué sucede al enviar el comando de Reset a Fábrica a la sonda?",
+        "respuesta": "Al enviar el comando de Reset a Fábrica, los valores de configuración de la sonda volverán a los valores por defecto."
+    },
+    {
+        "pregunta": "¿Para qué sirve el ajuste de Potencia en el sistema de sonar?",
+        "respuesta": "El ajuste de Potencia permite variar la sensibilidad de la sonda ajustando el valor de la resistencia. Es importante ajustar la sensibilidad lo más alta posible sin que la sonda se ponga en rojo cuando la plaza no está ocupada."
+    },
+    {
+        "pregunta": "¿Cómo se envían comandos a las sondas a través del bus físico?",
+        "respuesta": "Se envían comandos a las sondas a través del bus físico insertando el programador en el bus por medio de los dos conectores RJ45 que tiene en su lateral."
+    },
+    {
+        "pregunta": "¿Qué función tiene la placa inyectora de cabecera en el proceso de comunicación con las sondas?",
+        "respuesta": "La placa inyectora de cabecera aísla la comunicación de la alimentación, evitando que las MCBs introduzcan datos en el bus de sondas y produzcan colisión con los datos del programador."
+    },
+    {
+        "pregunta": "¿En qué consiste el test en difusión?",
+        "respuesta": "El test en difusión envía a todas las sondas del bus a la vez el test de sonda y lo va repitiendo hasta que se cancele. Todas las sondas del bus parpadean simultáneamente y comprueba la comunicación en el sentido del programador a las sondas."
+    },
+    {
+        "pregunta": "¿Qué información nos proporciona el comando \"DIME LOS ECOS\"?",
+        "respuesta": "El comando \"DIME LOS ECOS\" pregunta a una sonda el número de ecos que está recibiendo, mostrando en la pantalla del programador el número de ecos que está recibiendo la sonda en cada momento."
+    },
+    {
+        "pregunta": "¿Qué ajustes podemos realizar en el programador?",
+        "respuesta": "Podemos ajustar el contraste de la pantalla, la iluminosidad en modo día o noche, el idioma del interfaz en español, inglés o portugués, además de verificar la versión del firmware instalado y el número de serie del dispositivo programador."
+    },
+    {
+        "pregunta": "¿Qué información se encuentra en el archivo MaUs0240.doc?",
+        "respuesta": "El archivo contiene información relacionada con el documento MaUs0240."
+    },
+    {
+        "pregunta": "¿Cuál es la ruta completa del archivo MaUs0240.doc?",
+        "respuesta": "La ruta completa del archivo es X:\\Mas\\MaUs\\MaUs024\\MaUs0240\\MaUs0240.doc."
+    },
+    {
+        "pregunta": "¿Cuántas páginas tiene el documento MaUs0240?",
+        "respuesta": "El documento MaUs0240 tiene 15 páginas en total."
+    },
+    {
+        "pregunta": "¿Qué número de página se muestra en la parte superior derecha del documento?",
+        "respuesta": "En la parte superior derecha del documento se muestra el número 4."
+    },
+    {
+        "pregunta": "¿Qué tipo de archivo es MaUs0240.doc?",
+        "respuesta": "MaUs0240.doc es un archivo de formato de documento de Microsoft Word."
+    },
+    {
+        "pregunta": "¿Cuál es el objetivo del sistema GUIA?",
+        "respuesta": "El objetivo del sistema GUIA es orientar al usuario del aparcamiento para que localice rápidamente las plazas libres que haya en cada momento."
+    },
+    {
+        "pregunta": "¿Qué beneficios se obtienen al utilizar el sistema GUIA?",
+        "respuesta": "Al utilizar el sistema GUIA se consigue un mayor grado de satisfacción del usuario y una disminución de gastos al reducir el tiempo de circulación, lo que implica ahorro en combustible y disminución de la contaminación."
+    },
+    {
+        "pregunta": "¿Por qué es importante implementar un sistema como GUIA en un aparcamiento?",
+        "respuesta": "Es importante implementar un sistema como GUIA en un aparcamiento para mejorar la experiencia del usuario al encontrar rápidamente plazas libres, lo que se traduce en mayor satisfacción y menor impacto ambiental debido a la reducción de tiempo de circulación."
+    },
+    {
+        "pregunta": "¿Cómo funciona el detector de plaza libre/ocupada?",
+        "respuesta": "El detector de plaza libre/ocupada utiliza dos emisores-receptores de ultrasonidos para determinar si la plaza está ocupada o libre."
+    },
+    {
+        "pregunta": "¿Qué indica la luz interior del detector?",
+        "respuesta": "Si la plaza está libre, la luz interior será de color verde (azul si es para minusválidos). Si la plaza está ocupada, la luz cambiará a color rojo."
+    },
+    {
+        "pregunta": "¿Por qué se agrupan los detectores en buses?",
+        "respuesta": "Los detectores se agrupan en buses para facilitar el tratamiento de determinadas zonas, como los viales. Cada bus de sondas confluye en una placa de comunicaciones (Microcoms)."
+    },
+    {
+        "pregunta": "¿Cómo es la carcasa del detector de plaza libre/ocupada?",
+        "respuesta": "La carcasa del detector es de plástico de color blanco traslúcido, fácil de desmontar y montar sin necesidad de herramientas."
+    },
+    {
+        "pregunta": "¿Qué es un panel indicador de ocupación de zona?",
+        "respuesta": "Es un cartel luminoso que indica el número de plazas libres en la zona asignada."
+    },
+    {
+        "pregunta": "¿Qué información muestra normalmente un panel indicador de ocupación de zona?",
+        "respuesta": "Normalmente consta de tres dígitos y una flecha animada orientada en dirección a su zona."
+    },
+    {
+        "pregunta": "¿Qué otros tipos de carteles se pueden instalar en un aparcamiento para representar el número de plazas libres?",
+        "respuesta": "También se pueden instalar carteles totalizadores que representen el número de plazas libres de una combinación de zonas o plantas del aparcamiento."
+    },
+    {
+        "pregunta": "¿Para qué sirve un PC de control y gestión en un sistema de aparcamiento?",
+        "respuesta": "Un PC de control y gestión permite la configuración inicial del sistema, la gestión en tiempo real de la ocupación de las plazas y zonas del aparcamiento, y el estado de los carteles indicadores."
+    },
+    {
+        "pregunta": "¿Qué funciones adicionales ofrece un PC de control y gestión en un sistema de aparcamiento?",
+        "respuesta": "Además de la gestión en tiempo real de la ocupación del aparcamiento, un PC de control y gestión facilita informes y estadísticas de ocupación, así como la posibilidad de enviar comandos directos a sondas y carteles para optimizar la gestión."
+    },
+    {
+        "pregunta": "¿Cómo contribuye un PC de control y gestión a la eficiencia en la gestión de un aparcamiento?",
+        "respuesta": "Un PC de control y gestión permite una gestión más eficiente al proporcionar información en tiempo real sobre la ocupación de las plazas, facilitar la toma de decisiones basada en datos y enviar comandos directos para optimizar la gestión del aparcamiento."
+    },
+    {
+        "pregunta": "¿Cuál es la función de los armarios nodales en el aparcamiento?",
+        "respuesta": "Los armarios nodales proporcionan alimentación y comunicaciones entre el PC y los carteles y sondas."
+    },
+    {
+        "pregunta": "¿Qué placa de comunicaciones se encuentra en el interior de los armarios nodales?",
+        "respuesta": "La placa de comunicaciones que se encuentra en el interior de los armarios nodales se denomina HUB."
+    },
+    {
+        "pregunta": "¿Qué número de manual de usuario corresponde al sistema Guía Sonar?",
+        "respuesta": "El número de manual de usuario del sistema Guía Sonar es MA-US."
+    },
+    {
+        "pregunta": "¿Cuál es la ruta completa del archivo MaUs0240.doc?",
+        "respuesta": "X:\\Mas\\MaUs\\MaUs024\\MaUs0240\\MaUs0240.doc"
+    },
+    {
+        "pregunta": "¿En qué página se encuentra el contenido del archivo MaUs0240.doc?",
+        "respuesta": "En la página 5."
+    },
+    {
+        "pregunta": "¿Cuántas páginas tiene el documento MaUs0240.doc?",
+        "respuesta": "Tiene un total de 15 páginas."
+    },
+    {
+        "pregunta": "¿Qué tipo de archivo es MaUs0240.doc?",
+        "respuesta": "Es un archivo de documento de Word."
+    },
+    {
+        "pregunta": "¿Qué servicio de comunicaciones debe estar iniciado en el PC para el correcto funcionamiento del sistema?",
+        "respuesta": "El servicio de comunicaciones SONAR (scSONAR.exe)."
+    },
+    {
+        "pregunta": "¿Qué se debe hacer si el servicio de comunicaciones SONAR no está iniciado en el PC?",
+        "respuesta": "Se debe reiniciar el equipo."
+    },
+    {
+        "pregunta": "¿Qué programa se inicia automáticamente al encender el PC que hace de servidor del sistema GUIA?",
+        "respuesta": "El programa Gestor de aplicaciones se inicia automáticamente."
+    },
+    {
+        "pregunta": "¿Qué se muestra en la pantalla principal del servidor GUIA?",
+        "respuesta": "La pantalla principal se muestra semioculta en la parte superior de la pantalla y se despliega automáticamente al acercarle el cursor del ratón."
+    },
+    {
+        "pregunta": "¿Qué función cumple la aplicación Sonar en el sistema GUIA?",
+        "respuesta": "La aplicación Sonar nos permite interactuar con el hardware del sistema, conocer el estado de sondas y carteles instalados en el aparcamiento."
+    },
+    {
+        "pregunta": "¿Qué permite hacer la aplicación Generador de informes en el sistema GUIA?",
+        "respuesta": "La aplicación Generador de informes permite crear informes sobre la evolución de los distintos elementos del sistema."
+    },
+    {
+        "pregunta": "¿Qué función tiene el programa Sonar.exe?",
+        "respuesta": "El programa Sonar.exe es el programa de gestión del sistema GUIA. Permite controlar el estado de las sondas y carteles, así como interaccionar con ellos enviándoles determinados comandos."
+    },
+    {
+        "pregunta": "¿Qué permite hacer el programa Sonar.exe con las sondas y carteles?",
+        "respuesta": "Permite controlar el estado de las sondas y carteles, así como interaccionar con ellos enviándoles determinados comandos."
+    },
+    {
+        "pregunta": "¿Cómo se llama el programa de gestión del sistema GUIA?",
+        "respuesta": "El programa de gestión del sistema GUIA se llama Sonar.exe."
+    },
+    {
+        "pregunta": "¿Qué información se puede encontrar en la pestaña P000 del sistema de guía Sonar?",
+        "respuesta": "En la pestaña P000 se muestra la representación gráfica de todas las plantas del aparcamiento, indicando el estado Libre/Ocupado de todas las sondas y el número de plazas libres que están indicando los carteles."
+    },
+    {
+        "pregunta": "¿Qué sucede al desplegar la pestaña de una planta específica, como la planta -3?",
+        "respuesta": "Al desplegar la pestaña de una planta específica, como la planta -3, se muestra solamente la representación gráfica y la información de esa planta en particular."
+    },
+    {
+        "pregunta": "¿Cuál es la ubicación del archivo MaUs0240.doc?",
+        "respuesta": "X:\\Mas\\MaUs\\MaUs024\\MaUs0240\\MaUs0240.doc"
+    },
+    {
+        "pregunta": "¿En qué página se encuentra el archivo?",
+        "respuesta": "No se especifica en el contenido proporcionado."
+    },
+    {
+        "pregunta": "¿Cuántas páginas tiene el archivo MaUs0240.doc?",
+        "respuesta": "El archivo tiene un total de 15 páginas."
+    },
+    {
+        "pregunta": "¿Qué indica el color de cada plaza en el sistema?",
+        "respuesta": "El color de cada plaza nos indica su estado, ya sea Libre, Ocupada o Bloqueada."
+    },
+    {
+        "pregunta": "¿Qué significa que una plaza esté en estado Bloqueada?",
+        "respuesta": "Significa que hemos forzado manualmente su estado a Libre o a Ocupada."
+    },
+    {
+        "pregunta": "¿Qué indica que una plaza aparezca en color gris en el sistema?",
+        "respuesta": "Indica que esa plaza o grupo de plazas no tienen comunicación con el PC."
+    },
+    {
+        "pregunta": "¿Cómo se puede enviar comandos a una sonda?",
+        "respuesta": "Pulsando con el botón derecho del ratón sobre la sonda aparece un menú desplegable con los comandos que se pueden enviar."
+    },
+    {
+        "pregunta": "¿Qué determina la cantidad de comandos que aparecen en el menú desplegable?",
+        "respuesta": "El perfil del usuario determina la cantidad de comandos que aparecerán en el menú desplegable al pulsar con el botón derecho del ratón sobre una sonda."
+    },
+    {
+        "pregunta": "¿Qué acciones se pueden realizar mediante los comandos enviados a las sondas?",
+        "respuesta": "Los comandos enviados a las sondas pueden incluir acciones como activar sensores, recopilar datos, cambiar configuraciones, entre otras posibilidades dependiendo del perfil del usuario."
+    },
+    {
+        "pregunta": "¿Qué comando se envía a la sonda para hacerla parpadear Rojo/Verde varias veces?",
+        "respuesta": "El comando test."
+    },
+    {
+        "pregunta": "¿Para qué se utiliza el comando test en la sonda?",
+        "respuesta": "Se utiliza para identificar sondas en el parking desde el PC."
+    },
+    {
+        "pregunta": "¿Qué sucede cuando se utiliza el comando Bloqueo en una sonda?",
+        "respuesta": "El estado de la sonda se fuerza a Ocupado (rojo) o a Libre (verde) independientemente de su ocupación actual."
+    },
+    {
+        "pregunta": "¿Cómo se restablece el estado normal de una sonda después de utilizar el comando Bloqueo?",
+        "respuesta": "Se debe enviar el comando Desbloquear para que la sonda vuelva a su estado normal."
+    },
+    {
+        "pregunta": "¿Qué colores pueden mostrar las sondas cuando se utiliza el comando Bloqueo?",
+        "respuesta": "La sonda puede quedar en rojo si se fuerza a Ocupado o en verde si se fuerza a Libre."
+    },
+    {
+        "pregunta": "¿Cómo se puede controlar la luz de la sonda?",
+        "respuesta": "Se puede controlar la luz de la sonda a través del comando \"Luz\" seguido de \"No\" para apagarla o \"Sí\" para encenderla."
+    },
+    {
+        "pregunta": "¿Cuál es la configuración por defecto de la luz de la sonda?",
+        "respuesta": "La configuración por defecto de la luz de la sonda es \"Luz Sí\", es decir, encendida."
+    },
+    {
+        "pregunta": "¿Qué comando se utiliza para apagar la luz de la sonda?",
+        "respuesta": "El comando utilizado para apagar la luz de la sonda es \"Luz No\"."
+    },
+    {
+        "pregunta": "¿Cómo se activa la luz de la sonda?",
+        "respuesta": "Para activar la luz de la sonda se utiliza el comando \"Luz Sí\"."
+    },
+    {
+        "pregunta": "¿Qué se requiere para activar la salida digital en la sonda?",
+        "respuesta": "Solo el modo administrador puede activar la salida digital en la sonda."
+    },
+    {
+        "pregunta": "¿Qué significa el color rojo parpadeante en el sistema de control de plazas?",
+        "respuesta": "Significa que la plaza está ocupada y la sonda se encuentra parpadeando en rojo hasta que se desocupe."
+    },
+    {
+        "pregunta": "¿Quién tiene acceso al modo administrador para activar la función de rojo parpadeante?",
+        "respuesta": "Solo el administrador del sistema tiene acceso para activar la función de rojo parpadeante en las plazas."
+    },
+    {
+        "pregunta": "¿Cómo se pueden enviar comandos a los carteles led indicadores de plazas libres?",
+        "respuesta": "Los comandos se pueden enviar a través de un software específico que se comunica con los carteles led a través de una conexión inalámbrica o por cable."
+    },
+    {
+        "pregunta": "¿Qué tipo de información se puede mostrar en los carteles led indicadores de plazas libres?",
+        "respuesta": "Los carteles led pueden mostrar información como el número de plazas libres disponibles, indicaciones de dirección y cualquier mensaje personalizado que se desee comunicar."
+    },
+    {
+        "pregunta": "¿Es posible controlar los carteles led indicadores de plazas libres de forma remota?",
+        "respuesta": "Sí, se pueden controlar de forma remota a través de una conexión a internet, lo que permite actualizar la información en tiempo real y desde cualquier ubicación."
+    },
+    {
+        "pregunta": "¿Cuál es la ventaja de utilizar carteles led indicadores de plazas libres en un estacionamiento?",
+        "respuesta": "La principal ventaja es que optimizan la gestión de los espacios de estacionamiento al proporcionar información precisa y actualizada sobre la disponibilidad de plazas, lo que mejora la experiencia de los usuarios y aumenta la eficiencia en la ocupación del estacionamiento."
+    },
+    {
+        "pregunta": "¿Cómo se puede cambiar un cartel a cero plazas libres en el sistema de guía Sonar?",
+        "respuesta": "En el modo administrador, se puede hacer click con el botón derecho del ratón sobre el cartel y seleccionar la opción Mostrar Completo Sí."
+    },
+    {
+        "pregunta": "¿Qué significa que un cartel esté marcado como \"OCUPADA\" en el sistema de guía Sonar?",
+        "respuesta": "Significa que la plaza correspondiente está ocupada y no disponible para estacionar."
+    },
+    {
+        "pregunta": "¿Qué se debe hacer para que un cartel vuelva a mostrar las plazas libres reales en el sistema de guía Sonar?",
+        "respuesta": "Se debe marcar la opción Mostrar Completo No en el modo administrador."
+    },
+    {
+        "pregunta": "¿Qué opciones de visualización se pueden configurar en el sistema de guía Sonar?",
+        "respuesta": "Se pueden configurar los carteles para mostrar si una plaza está libre, ocupada, bloqueada o reservada para minusválidos."
+    },
+    {
+        "pregunta": "¿Cuál es la ruta del archivo mencionado en el contenido?",
+        "respuesta": "X:\\Mas\\MaUs\\MaUs024\\MaUs0240\\MaUs0240,doc"
+    },
+    {
+        "pregunta": "¿En qué página se encuentra la información?",
+        "respuesta": "No se especifica en el contenido."
+    },
+    {
+        "pregunta": "¿Cuántas páginas tiene el documento en total?",
+        "respuesta": "No se especifica en el contenido."
+    },
+    {
+        "pregunta": "¿Qué tipo de archivo es MaUs0240,doc?",
+        "respuesta": "Es un archivo de documento."
+    },
+    {
+        "pregunta": "¿Qué debemos hacer si un cartel deja de representar correctamente las plazas libres o el pictograma?",
+        "respuesta": "Podemos intentar restituir su funcionamiento enviándole un Reset."
+    },
+    {
+        "pregunta": "¿Cómo se realiza un Reset en un cartel?",
+        "respuesta": "Haciendo click con el botón derecho del ratón sobre el cartel y pulsando en Reset en el menú desplegable."
+    },
+    {
+        "pregunta": "¿Quién tiene acceso al modo administrador para realizar un Reset en un cartel?",
+        "respuesta": "Sólo el administrador tiene acceso al modo administrador para realizar un Reset en un cartel."
+    },
+    {
+        "pregunta": "¿Qué utilidades de representación se pueden aprovechar al utilizar un monitor TFT como visualizador de plazas libres?",
+        "respuesta": "Se pueden mostrar una línea de texto seleccionable y fija en la banda superior, una línea de texto seleccionable y fija en la banda inferior, y en la banda central se pueden mostrar número de plazas libres, mensajes de texto, imágenes o videos tanto fijos como en modo carrusel."
+    },
+    {
+        "pregunta": "¿Es posible configurar las bandas superior e inferior para que estén activas o inactivas en el monitor TFT?",
+        "respuesta": "Sí, las bandas superior e inferior pueden o no estar activas. En caso de no estarlo, la banda central podría ocupar toda la pantalla."
+    },
+    {
+        "pregunta": "¿Qué se debe hacer para activar las nuevas utilidades de representación en un monitor TFT utilizado como visualizador de plazas libres?",
+        "respuesta": "Todas las utilidades deben estar previamente configuradas en la placa controladora del cartel TFT para poder activarlas."
+    },
+    {
+        "pregunta": "¿Cómo se configura un texto fijo en la línea superior de la pantalla?",
+        "respuesta": "Para configurar un texto fijo en la línea superior de la pantalla, debemos hacer click con el botón derecho del ratón sobre el propio cartel, luego hacer click con el botón izquierdo en Mensaje a mostrar (índice) dentro de Texto línea superior, introducir el índice del mensaje de texto deseado y pulsar Ok. Finalmente, seleccionar Sí para activarlo."
+    },
+    {
+        "pregunta": "¿Qué se debe seleccionar primero para que aparezca un anuncio en la banda central de la pantalla?",
+        "respuesta": "Se debe seleccionar si se trata de una imagen, un texto fijo o un video en la pantalla siguiente."
+    },
+    {
+        "pregunta": "¿Qué tipo de contenido se puede utilizar para un anuncio en la banda central de la pantalla?",
+        "respuesta": "Se puede utilizar una imagen, un texto fijo o un video."
+    },
+    {
+        "pregunta": "¿Qué número de manual de usuario corresponde al sistema Guía Sonar?",
+        "respuesta": "El número de manual de usuario es MA-US."
+    },
+    {
+        "pregunta": "¿Cuál es la ubicación del archivo MaUs0240.doc?",
+        "respuesta": "La ubicación del archivo MaUs0240.doc es X:\\Mas\\MaUs\\MaUs024\\MaUs0240\\MaUs0240.doc."
+    },
+    {
+        "pregunta": "¿Cuántas páginas tiene el archivo MaUs0240.doc?",
+        "respuesta": "El archivo MaUs0240.doc tiene un total de 15 páginas."
+    },
+    {
+        "pregunta": "¿En qué carpeta se encuentra el archivo MaUs0240.doc?",
+        "respuesta": "El archivo MaUs0240.doc se encuentra en la carpeta MaUs0240 dentro de la carpeta MaUs024 dentro de la carpeta MaUs dentro de la carpeta Mas."
+    },
+    {
+        "pregunta": "¿En qué consiste el modo carrusel en el sistema Guía Sonar?",
+        "respuesta": "El modo carrusel consiste en rotar los ficheros disponibles con la representación de las plazas libres, ya sean imágenes, texto o videos."
+    },
+    {
+        "pregunta": "¿Qué se debe hacer antes de activar el modo carrusel en el sistema Guía Sonar?",
+        "respuesta": "Antes de activar el modo carrusel, es necesario configurar sus parámetros."
+    },
+    {
+        "pregunta": "¿Qué parámetros se deben configurar al activar el modo carrusel en el sistema Guía Sonar?",
+        "respuesta": "Se deben configurar los segundos a mostrar para cada imagen o texto, así como los segundos entre muestra y muestra para volver a representar las plazas libres."
+    },
+    {
+        "pregunta": "¿Qué ocurre con la duración de los videos al activar el modo carrusel en el sistema Guía Sonar?",
+        "respuesta": "En el caso de los videos, no es necesario introducir el parámetro de segundos a mostrar, ya que la duración real del video será la que se mostrará."
+    },
+    {
+        "pregunta": "¿Cuál es la ruta completa del archivo MaUs0240.doc?",
+        "respuesta": "X:\\Mas\\MaUs\\MaUs024\\MaUs0240\\MaUs0240.doc"
+    },
+    {
+        "pregunta": "¿En qué página se encuentra el contenido del archivo MaUs0240.doc?",
+        "respuesta": "La página en la que se encuentra el contenido no está especificada en la información proporcionada."
+    },
+    {
+        "pregunta": "¿Cuántas subcarpetas contiene la ruta del archivo MaUs0240.doc?",
+        "respuesta": "La ruta del archivo MaUs0240.doc contiene 4 subcarpetas."
+    },
+    {
+        "pregunta": "¿Cuál es el formato del archivo MaUs0240.doc?",
+        "respuesta": "El formato del archivo es .doc, lo que indica que es un documento de Microsoft Word."
+    },
+    {
+        "pregunta": "¿Qué debemos introducir para representar las plazas libres en pantalla durante un determinado tiempo en segundos?",
+        "respuesta": "El tiempo en segundos durante el cual se van a representar las plazas libres."
+    },
+    {
+        "pregunta": "¿Qué debemos evitar hacer al seleccionar el modo Carrusel para que las plazas libres no se representen permanentemente en pantalla?",
+        "respuesta": "No debemos seleccionar el índice del fichero que se va a representar en pantalla permanentemente."
+    },
+    {
+        "pregunta": "¿Qué opciones podemos seleccionar al entrar en Anuncios > Modo carrusel > No (parámetros)?",
+        "respuesta": "Podemos seleccionar Imagen, Texto o Video."
+    },
+    {
+        "pregunta": "¿Qué debemos hacer una vez configurados los parámetros en el modo carrusel para que se representen definitivamente en pantalla?",
+        "respuesta": "Seleccionar Modo carrusel Sí."
+    },
+    {
+        "pregunta": "¿Qué sucede si seleccionamos \"respetar relación de aspecto\" en el sistema Guía Sonar?",
+        "respuesta": "Si seleccionamos \"respetar relación de aspecto\" Sí, siempre se mantendrá la relación AnchoxAlto del documento original."
+    },
+    {
+        "pregunta": "¿Qué ocurre si seleccionamos \"respetar relación de aspecto\" No en el sistema Guía Sonar?",
+        "respuesta": "Si seleccionamos \"respetar relación de aspecto\" No, la relación AnchoxAlto del documento original puede ser deformada cuando se configuren otros parámetros."
+    },
+    {
+        "pregunta": "¿Qué importancia tiene respetar la relación de aspecto en el sistema Guía Sonar?",
+        "respuesta": "Respetar la relación de aspecto garantiza que la imagen mantenga sus proporciones originales, evitando distorsiones visuales."
+    },
+    {
+        "pregunta": "¿Cuál es la ubicación del archivo MaUs0240.doc?",
+        "respuesta": "La ubicación del archivo MaUs0240.doc es X:\\Mas\\MaUs\\MaUs024\\MaUs0240\\."
+    },
+    {
+        "pregunta": "¿Cuál es el nombre completo del archivo?",
+        "respuesta": "El nombre completo del archivo es MaUs0240.doc."
+    },
+    {
+        "pregunta": "¿Cuántas páginas tiene el archivo MaUs0240.doc?",
+        "respuesta": "El archivo MaUs0240.doc tiene 15 páginas."
+    },
+    {
+        "pregunta": "¿Qué información se encuentra en la página 10 del archivo MaUs0240.doc?",
+        "respuesta": "En la página 10 del archivo MaUs0240.doc se encuentra la información correspondiente a la décima página del documento."
+    },
+    {
+        "pregunta": "¿Qué sucede si seleccionamos Pantalla completa Sí?",
+        "respuesta": "La imagen ocupará toda la pantalla, ocultando incluso las líneas de texto superior e inferior."
+    },
+    {
+        "pregunta": "¿Qué ocurre si se selecciona Respetar relación de aspecto No?",
+        "respuesta": "La imagen se deformará para ocupar el 100 % de la pantalla."
+    },
+    {
+        "pregunta": "¿Qué sucede con la imagen si se selecciona Respetar relación de aspecto Sí?",
+        "respuesta": "La imagen llegará hasta el borde de la pantalla, ocultando las líneas de texto, y aparecerán dos bandas negras en la pantalla para no deformar la imagen a representar."
+    },
+    {
+        "pregunta": "¿Qué debemos hacer si queremos seleccionar Pantalla completa No?",
+        "respuesta": "Debemos configurar primero los parámetros Left, Top, Width y Height para situar la posición de la imagen en la pantalla así como sus dimensiones."
+    },
+    {
+        "pregunta": "¿Qué representa el parámetro Left en la configuración de la imagen en pantalla?",
+        "respuesta": "Left representa la distancia en píxeles desde el borde izquierdo de la imagen hasta el mismo borde del monitor."
+    },
+    {
+        "pregunta": "¿Qué significa el parámetro Top en la configuración de la imagen en pantalla?",
+        "respuesta": "Top es la distancia desde el borde superior de la imagen hasta el mismo borde del monitor."
+    },
+    {
+        "pregunta": "¿Cuál es la ruta completa del archivo mencionado?",
+        "respuesta": "X:\\Mas\\MaUs\\MaUs024\\MaUs0240\\MaUs0240,doc"
+    },
+    {
+        "pregunta": "¿Cuál es el número de página actual del documento?",
+        "respuesta": "Página :"
+    },
+    {
+        "pregunta": "¿Cuántas páginas tiene el documento en total?",
+        "respuesta": "15"
+    },
+    {
+        "pregunta": "¿Qué es el Width en relación a una imagen?",
+        "respuesta": "El Width es la anchura en píxeles que queremos que tenga la imagen en la pantalla."
+    },
+    {
+        "pregunta": "¿Qué significa Heigth en términos de una imagen?",
+        "respuesta": "Heigth es la altura en píxeles que queremos que tenga la imagen en la pantalla."
+    },
+    {
+        "pregunta": "¿Cómo puedo configurar la representación de una tabla en pantalla?",
+        "respuesta": "Para configurar la representación de una tabla en pantalla, puedes ajustar el tamaño de las columnas, cambiar el color de fondo de las celdas o modificar la fuente de texto, entre otras opciones."
+    },
+    {
+        "pregunta": "¿Qué opciones tengo para personalizar la visualización de gráficos en pantalla?",
+        "respuesta": "Puedes personalizar la visualización de gráficos en pantalla cambiando los colores, estilos de línea, leyendas, etiquetas y escalas, entre otras opciones."
+    },
+    {
+        "pregunta": "¿Cómo puedo ajustar la representación de un diagrama en pantalla?",
+        "respuesta": "Para ajustar la representación de un diagrama en pantalla, puedes modificar el tamaño y posición de los elementos, cambiar los colores y estilos, y agregar o quitar elementos según tus necesidades."
+    },
+    {
+        "pregunta": "¿Qué tipo de anuncios se muestran en la línea superior?",
+        "respuesta": "Anuncios en línea superior."
+    },
+    {
+        "pregunta": "¿Qué se muestra en pantalla completa?",
+        "respuesta": "No se muestran anuncios en pantalla completa."
+    },
+    {
+        "pregunta": "¿Qué mensaje se debe introducir en la línea superior?",
+        "respuesta": "El índice del fichero."
+    },
+    {
+        "pregunta": "¿Se debe mostrar algún mensaje en la línea superior?",
+        "respuesta": "Sí, se debe mostrar un mensaje."
+    },
+    {
+        "pregunta": "¿Qué tipo de anuncios se pueden mostrar en pantalla completa?",
+        "respuesta": "Los anuncios de tipo medio."
+    },
+    {
+        "pregunta": "¿Se pueden mostrar los anuncios en modo carrusel?",
+        "respuesta": "No, el modo carrusel está desactivado."
+    },
+    {
+        "pregunta": "¿Qué se puede hacer con el índice del fichero de texto?",
+        "respuesta": "Podemos introducir el índice del fichero de texto que deseamos representar en pantalla completa."
+    },
+    {
+        "pregunta": "¿Cómo se selecciona el fichero de texto que se desea mostrar?",
+        "respuesta": "Podemos tener varios ficheros de texto cargados y seleccionar en cada momento el que deseamos representar."
+    },
+    {
+        "pregunta": "¿Qué mensaje se mostrará si se selecciona la opción de introducir índice del fichero?",
+        "respuesta": "El mensaje a mostrar será \"Introducir índice del fichero\"."
+    },
+    {
+        "pregunta": "¿Qué tipo de medio se utilizará para los anuncios si se selecciona la opción de imagen?",
+        "respuesta": "Se utilizará el tipo de medio de Imagen para los anuncios."
+    },
+    {
+        "pregunta": "¿Cuál es el parámetro para indicar los segundos que se mostrará cada imagen en el modo carrusel?",
+        "respuesta": "Debes introducir los segundos que se mostrará cada imagen en el modo carrusel."
+    },
+    {
+        "pregunta": "¿Qué sucederá si se cargan ficheros .bmp que no se necesitan representar?",
+        "respuesta": "No se representarán los ficheros .bmp que no se necesitan, se alternarán todos los cargados según las operaciones avanzadas."
+    },
+    {
+        "pregunta": "¿Qué tipo de anuncios se pueden mostrar en el sistema de guía Sonar?",
+        "respuesta": "Se pueden mostrar anuncios de video a pantalla completa alternando con plazas libres."
+    },
+    {
+        "pregunta": "¿Qué información contiene el Manual de Usuario del sistema de guía Sonar?",
+        "respuesta": "Contiene información detallada sobre el funcionamiento y uso del sistema Sonar."
+    },
+    {
+        "pregunta": "¿Cuál es el número de identificación del Manual de Usuario del sistema de guía Sonar?",
+        "respuesta": "El número de identificación del Manual de Usuario es MA-US-."
+    },
+    {
+        "pregunta": "¿Qué tipo de medio se utiliza para mostrar los anuncios en el sistema de guía Sonar?",
+        "respuesta": "Se utiliza el tipo de medio de video para mostrar los anuncios en el sistema Sonar."
+    },
+    {
+        "pregunta": "¿Cuál es la ubicación del archivo MaUs0240.doc?",
+        "respuesta": "La ubicación del archivo MaUs0240.doc es X:\\Mas\\MaUs\\MaUs024\\MaUs0240\\MaUs0240.doc."
+    },
+    {
+        "pregunta": "¿Cuántas páginas tiene el archivo MaUs0240.doc?",
+        "respuesta": "El archivo MaUs0240.doc tiene 15 páginas."
+    },
+    {
+        "pregunta": "¿Cuál es la estructura de las carpetas en la ubicación del archivo MaUs0240.doc?",
+        "respuesta": "La estructura de carpetas es Mas\\MaUs\\MaUs024\\MaUs0240\\."
+    },
+    {
+        "pregunta": "¿Qué tipo de documento es MaUs0240.doc?",
+        "respuesta": "MaUs0240.doc es un documento de Word."
+    },
+    {
+        "pregunta": "¿Qué parámetros se deben introducir en el modo carrusel para determinar los segundos entre muestra y muestra?",
+        "respuesta": "Se deben introducir los segundos en los que se mostrarán las plazas libres."
+    },
+    {
+        "pregunta": "¿Se puede mostrar un solo fichero .mp4 en el modo carrusel?",
+        "respuesta": "Sí, solo se debe cargar un fichero .mp4 que se representará alternativamente en el modo carrusel."
+    },
+    {
+        "pregunta": "¿Se puede activar la pantalla completa en los anuncios?",
+        "respuesta": "Sí, se puede activar la pantalla completa en los anuncios."
+    },
+    {
+        "pregunta": "¿Qué función tiene el Generador de informes en el sistema GUIA?",
+        "respuesta": "El Generador de informes nos permite crear informes a partir de las bases de datos que utiliza el sistema GUIA."
+    },
+    {
+        "pregunta": "¿Cómo podemos encontrar un informe específico en el Generador de informes?",
+        "respuesta": "En la ventana izquierda aparecen todos los informes disponibles para que elijamos el que deseemos, y contamos con un filtro buscador en la parte inferior para facilitar la búsqueda."
+    },
+    {
+        "pregunta": "¿Qué tipos de presentación podemos seleccionar para visualizar un informe en el Generador de informes?",
+        "respuesta": "Podemos seleccionar el modo rejilla (visualización de la información ordenada en columnas), modo impresión (para ser impreso), modo gráfico (representación en forma de gráfica temporal) y modo texto (representado como texto plano)."
+    },
+    {
+        "pregunta": "¿Qué botón debemos pulsar una vez seleccionado el informe y los filtros en el Generador de informes?",
+        "respuesta": "Debemos pulsar el botón \"Mostrar informe\" para generar el informe con los filtros seleccionados."
+    },
+    {
+        "pregunta": "¿Cuál es la ubicación del archivo MaUs0240.doc?",
+        "respuesta": "X:\\Mas\\MaUs\\MaUs024\\MaUs0240\\MaUs0240.doc"
+    },
+    {
+        "pregunta": "¿Cuál es el número de página en el que se encuentra actualmente en el archivo MaUs0240.doc?",
+        "respuesta": "Página 1 de 15"
+    },
+    {
+        "pregunta": "¿Qué tipo de documento es MaUs0240.doc?",
+        "respuesta": "Es un documento de Word (doc)"
+    },
+    {
+        "pregunta": "¿Cuántas páginas totales tiene el documento MaUs0240.doc?",
+        "respuesta": "Tiene un total de 15 páginas."
+    },
+    {
+        "pregunta": "¿Cómo se pueden exportar los datos del informe a otros formatos?",
+        "respuesta": "Se pueden exportar los datos del informe a otros formatos pulsando el botón correspondiente y seleccionando uno de los distintos formatos posibles en la ventana emergente."
+    },
+    {
+        "pregunta": "¿Qué se debe hacer si se quiere imprimir el informe?",
+        "respuesta": "Si el modo elegido lo permite, estará activo el botón para imprimir el informe."
+    },
+    {
+        "pregunta": "¿Cómo se puede desbloquear el acceso a Windows en caso de estar bloqueado?",
+        "respuesta": "Para desbloquear el acceso a Windows, se debe pulsar el botón Modo administrador en el desplegable del Gestor de aplicaciones e introducir la contraseña de acceso proporcionada por el técnico instalador."
+    },
+    {
+        "pregunta": "¿Por qué está bloqueado el acceso a Windows?",
+        "respuesta": "El acceso a Windows está bloqueado para proteger el equipo y evitar acciones indeseadas."
+    },
+    {
+        "pregunta": "¿Qué se debe hacer si se ha olvidado la contraseña de acceso para desbloquear Windows?",
+        "respuesta": "En caso de haber olvidado la contraseña de acceso para desbloquear Windows, se debe contactar al técnico instalador para que proporcione nuevamente la contraseña al administrador del sistema."
+    },
+    {
+        "pregunta": "¿Cómo se prepara un fichero de texto plano sin formato con codificación UTF-8?",
+        "respuesta": "Se puede hacer con el \"Bloc de notas\" de Windows (notepad.exe)."
+    },
+    {
+        "pregunta": "¿Cuál es el formato que debe tener el nombre del fichero de texto fijo?",
+        "respuesta": "El nombre del fichero debe tener el formato txt_XX_Nombre.txt, donde XX es el índice y Nombre es el nombre que se le quiera dar al fichero."
+    },
+    {
+        "pregunta": "¿Cuál es el número máximo de caracteres permitidos para el nombre del fichero?",
+        "respuesta": "El número máximo de caracteres es 29, contando los espacios."
+    },
+    {
+        "pregunta": "¿Cómo se deben numerar los ficheros de texto fijo para poder seleccionarlos?",
+        "respuesta": "Deben tener numeración correlativa empezando por el 01 y sin dejar huecos (01, 02, 03, 04, 05...)."
+    },
+    {
+        "pregunta": "¿Cuál es la ruta completa del archivo MaUs0240.doc?",
+        "respuesta": "X:\\Mas\\MaUs\\MaUs024\\MaUs0240\\MaUs0240.doc"
+    },
+    {
+        "pregunta": "¿En qué página se encuentra actualmente dentro del archivo MaUs0240.doc?",
+        "respuesta": "Página 14"
+    },
+    {
+        "pregunta": "¿Cuántas páginas tiene en total el archivo MaUs0240.doc?",
+        "respuesta": "15"
+    },
+    {
+        "pregunta": "¿Cuál es el nombre del archivo al que pertenece la página 14?",
+        "respuesta": "MaUs0240.doc"
+    },
+    {
+        "pregunta": "¿Qué directorio contiene al archivo MaUs0240.doc?",
+        "respuesta": "X:\\Mas\\MaUs\\MaUs024\\MaUs0240"
+    },
+    {
+        "pregunta": "¿Cómo se debe preparar el fichero de anuncio en modo texto?",
+        "respuesta": "Se debe preparar un fichero de texto plano sin formato con codificación UTF-8 utilizando el \"Bloc de notas\" de Windows en el servidor del sistema GUIA."
+    },
+    {
+        "pregunta": "¿Cuál es el formato que debe tener el nombre del fichero de anuncio en modo texto?",
+        "respuesta": "El nombre del fichero debe tener el formato txt_XX_Nombre.txt, donde XX es un índice numerado correlativamente empezando por 01 y Nombre es el nombre que se le quiera dar al fichero."
+    },
+    {
+        "pregunta": "¿Cómo se ajusta el texto en la pantalla al introducirlo en el fichero de anuncio en modo texto?",
+        "respuesta": "El texto se ajustará automáticamente en la parte central de la pantalla modificando el tamaño del tipo según el número de caracteres introducidos. Se representa con justificación central, por lo que puede ser necesario añadir espacios para una mejor apariencia."
+    },
+    {
+        "pregunta": "¿Cuál es la extensión y tamaño requeridos para el fichero de imagen en la preparación de un anuncio?",
+        "respuesta": "La extensión debe ser .bmp de 24 bits y el tamaño para pantalla completa es de 1280x720 píxeles."
+    },
+    {
+        "pregunta": "¿Cómo debe ser el nombre del fichero de imagen en la preparación de un anuncio?",
+        "respuesta": "El nombre del fichero debe tener el formato bmp_XX_Nombre.bmp, donde XX es un índice para seleccionarlo y Nombre es el nombre que le queramos dar."
+    },
+    {
+        "pregunta": "¿Qué se debe hacer para que la imagen se represente sin deformación en el monitor?",
+        "respuesta": "Se debe partir de un fichero de 1680x720 y comprimirlo horizontalmente al 76%, ya que el monitor ensanchará posteriormente la imagen para acoplarla a la relación de aspecto de su pantalla."
+    },
+    {
+        "pregunta": "¿Cuál es el tamaño máximo permitido para la imagen en la preparación de un anuncio?",
+        "respuesta": "El tamaño máximo de la imagen debe ser de 10Mb."
+    },
+    {
+        "pregunta": "¿Cuál es el formato que debe tener el fichero de video para el anuncio?",
+        "respuesta": "El fichero de video debe tener formato MP4 (512x288 v:AVC a:AAC)."
+    },
+    {
+        "pregunta": "¿Cómo debe ser el nombre del fichero de video?",
+        "respuesta": "El nombre del fichero debe tener el formato mp4_XX_Nombre.mp4, donde XX es el índice para seleccionarlo y Nombre es el nombre que queramos dar al fichero."
+    },
+    {
+        "pregunta": "¿Cómo se debe numerar los ficheros de video en caso de tener varios?",
+        "respuesta": "En caso de tener varios ficheros, deben tener numeración correlativa empezando por el 01 y sin dejar huecos (01, 02, 03, 04, 05...)."
+    },
+    {
+        "pregunta": "¿Qué pasos debemos seguir para cargar ficheros de texto, imagen o video en la placa controladora del monitor?",
+        "respuesta": "Una vez generados los ficheros, accedemos desde el PC servidor a la placa controladora del cartel TFT mediante su interfaz web. Tecleamos Inicio > Ejecutar > Iexplore 192.168.30.128."
+    },
+    {
+        "pregunta": "¿Qué dirección IP debemos utilizar para acceder a la placa controladora del cartel TFT?",
+        "respuesta": "La dirección IP que debemos utilizar es 192.168.30.128."
+    },
+    {
+        "pregunta": "¿Qué hacer en caso de tener varios carteles TFT?",
+        "respuesta": "En caso de tener varios carteles TFT, las direcciones IP de sus placas controladoras serían 129, 130, 131, y así sucesivamente."
+    },
+    {
+        "pregunta": "¿Cuál es la ruta del archivo mencionado en el contenido?",
+        "respuesta": "X:\\Mas\\MaUs\\MaUs024\\MaUs0240\\MaUs0240,doc"
+    },
+    {
+        "pregunta": "¿De cuántas páginas se compone el archivo mencionado?",
+        "respuesta": "15"
+    },
+    {
+        "pregunta": "¿Qué información se encuentra en el archivo MaUs0240.doc?",
+        "respuesta": "No se especifica en el contenido proporcionado."
+    },
+    {
+        "pregunta": "¿Qué datos debemos introducir en la pantalla de acceso?",
+        "respuesta": "Como Nombre de usuario y como Contraseña, introducimos \"publicidad\"."
+    },
+    {
+        "pregunta": "¿Qué debemos hacer en la pestaña Publicidad de la ventana que aparece?",
+        "respuesta": "En la pestaña Publicidad, debemos seleccionar el fichero deseado en la ruta adecuada pulsando el botón Examinar."
+    },
+    {
+        "pregunta": "¿Cómo podemos eliminar los archivos cargados en la lista inferior?",
+        "respuesta": "Para eliminar los archivos cargados en la lista inferior, debemos pulsar el botón Borrar."
+    },
+    {
+        "pregunta": "¿Qué debemos hacer una vez que tengamos cargados todos los ficheros que vamos a representar en el monitor TFT?",
+        "respuesta": "Una vez que tengamos cargados todos los ficheros que vamos a representar en el monitor TFT, debemos volver al capítulo 5.4 para configurar su representación en pantalla."
+    }
+]
