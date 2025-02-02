@@ -35,10 +35,5 @@ El modelo **google-t5/t5-base**, entrenado sin cuantificación, ofreció **mejor
 🔹 **LangChain** ayudó a estructurar los datos eficientemente, mejorando la calidad del entrenamiento.  
 🔹 **El modelo google-t5/t5-base sin cuantificación superó al BSC-LT/salamandra-2b-instruct cuantificado**, mostrando que la capacidad de procesamiento es clave en modelos generativos.  
 🔹 **La integración con Streamlit** permitió crear una interfaz accesible, reduciendo la carga de soporte técnico.  
-🔹 Este **LLM personalizado mejora la productividad** y optimiza la resolución de dudas técnicas.  
-
-✅ **Conclusión:** Hemos demostrado que la personalización de modelos LLM con datos específicos de la empresa puede ser una solución eficiente para el soporte técnico y la automatización del conocimiento técnico.  
-
-🚀 ¡Este proyecto marca un gran avance en la optimización del acceso a información técnica en nuestra empresa!  
 
 ---
